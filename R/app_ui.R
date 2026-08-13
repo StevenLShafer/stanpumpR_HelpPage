@@ -1,8 +1,16 @@
-# UI for stanpumpR
-# padding top right bottom left
+# UI for the stanpumpR help app.
+#
+# Provenance: originally the script-app ui.R (Steven L. Shafer, 2019); wrapped
+# in app_ui() in August 2026 (Claude Opus 4.8, reviewed by S. Shafer) to mirror
+# the stanpumpR package layout. The dashboard body content is unchanged.
 
-# UI ------------------------------------------------------
-function(request) {
+#' Build the stanpumpR help app UI
+#'
+#' @return A function of `request` producing the Shiny UI. Shiny expects the UI
+#'   as a request-handling function so that bookmarkable state can be restored.
+#' @keywords internal
+app_ui <- function() {
+  function(request) {
   dashboardPage(
     dashboardHeader(
       title = "stanpumpR"
@@ -28,11 +36,19 @@ function(request) {
 
     dashboardBody(
       useShinyjs(),
+      # scrollLogger keeps the (optional) log panel scrolled to its newest line.
+      # Inlined via text= rather than a separate JS file so it resolves in the
+      # package build without a served www/ script path.
       extendShinyjs(
-        script = "shinyjs-funcs.js",
+        text = paste(
+          "shinyjs.scrollLogger = function() {",
+          "  var l = $('#logSection');",
+          "  if (l.length) { l.scrollTop(l[0].scrollHeight); }",
+          "}"
+        ),
         functions = c("scrollLogger")
       ),
-      tags$head(tags$link(href = "app.css", rel = "stylesheet")),
+      tags$head(tags$link(href = "stanpumprhelp-assets/app.css", rel = "stylesheet")),
   #    style = "max-height: 95vh; overflow-y: auto;" ,
       tags$style(
         HTML(
@@ -361,7 +377,7 @@ function(request) {
                     programs developed to control the delivery of intravenous anesthetics using
                     pharmacokinetic principles. At that time there was an active exchange of concepts
                     and algorithms among the authors. Significant contributors to this effort were
-                    Schüttler and Schwilden at the University of Bonn (CATIA), Ausems and Hug at the
+                    Sch\u00fcttler and Schwilden at the University of Bonn (CATIA), Ausems and Hug at the
                     University of Leiden (TIAC), Reves and Alvis at the University of Alabama (CACI),
                     Jacobs and Reves at Duke University (CACI II), Coetzee and Pina at Stellenbosch
                     University (STELPUMP), and De Smet and Struys at the University of Ghent (RUGLOOP).
@@ -1472,5 +1488,6 @@ function(request) {
 
     ) # end dashboardBody
   ) # end dashboardPage
-}
+  } # end function(request)
+} # end app_ui
 
