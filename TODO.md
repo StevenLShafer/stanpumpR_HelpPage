@@ -52,10 +52,7 @@ copy-pasted from the wrong section:
   "Copyright 2019". Refresh if appropriate.
 - [ ] **Duplicated inline CSS.** The `.nav-tabs > li > a` style block is repeated
   verbatim inside each of the three Examples tab panels. Hoist to a single
-  `www/app.css` rule.
-- [ ] **Consider dropping URL bookmarking.** `enableBookmarking(store = "url")`
-  is enabled but the help app has no user inputs worth restoring; it exists only
-  to mirror the main app. Harmless, but removable.
+  `inst/www/app.css` rule.
 
 ---
 
