@@ -16,28 +16,6 @@ Schwilden laid much of the quantitative groundwork for target-controlled infusio
 
 ---
 
-## Brussels — Vrije Universiteit Brussel (VUB), Belgium
-
-**Frederic Camu** — emeritus professor and long-time chair of anesthesiology, Vrije Universiteit Brussel
-
-Frederic Camu was a Belgian anesthesiologist who led the Department of Anesthesiology at the Vrije Universiteit Brussel (VUB) for many years and built a research program centered on the clinical pharmacology of intravenous anesthetics, opioids, and analgesics — including their effects on hemodynamics, respiratory control, and acute nociception `[verify]`. Working at Brussels in the mid-1980s, he collaborated with Elisabeth Gepts on the human disposition studies of propofol that would become foundational to modern target-controlled infusion (TCI).
-
-Camu was a co-author of the 1987 Gepts et al. constant-rate infusion study, whose three-compartment parameter set was later adapted by Marsh, White, Morton, and Kenny into the "Marsh" model used in the Diprifusor and many subsequent TCI systems, and against which Coetzee and colleagues benchmarked propofol model performance. Frederic Camu passed away in 2024.
-
-*Key reference:* Gepts E, Camu F, Cockshott ID, Douglas EJ. Disposition of propofol administered as constant rate intravenous infusions in humans. Anesth Analg. 1987;66(12):1256–1263.
-
----
-
-**Elisabeth Gepts** — clinical-pharmacology researcher in anesthesiology; source of the propofol disposition dataset underlying the Marsh model
-
-Elisabeth Gepts (published as "Gepts E") was a Brussels-based clinical pharmacology and anesthesiology researcher whose 1987 study of propofol disposition during constant-rate intravenous infusion provided the parameter estimates that underpin one of the most widely deployed pharmacokinetic models in anesthesia. In that work she and colleagues administered propofol at 3, 6, and 9 mg·kg⁻¹·hr⁻¹ to surgical patients under regional anesthesia, sampled arterial blood during and after infusion, and fitted the data to a three-compartment open mammillary model with central elimination — establishing the volumes and clearances that describe propofol disposition in humans.
-
-That dataset, produced through the Camu–Gepts collaboration at the Free University of Brussels, was subsequently adapted by Marsh, White, Morton, and Kenny (1991) into the weight-proportional "Marsh" model implemented in the AstraZeneca Diprifusor and in numerous later TCI pumps; it also served as a reference point in Coetzee et al.'s comparative evaluations of propofol PK models. Gepts is credited with later helping to recover the original source data underlying these parameters.
-
-*Key reference:* Gepts E, Camu F, Cockshott ID, Douglas EJ. Disposition of propofol administered as constant rate intravenous infusions in humans. Anesth Analg. 1987;66(12):1256–1263.
-
----
-
 ## Duke University
 
 **J. Michael Alvis** — biomedical engineer and anesthesiology investigator; principal developer of the CACI (computer-assisted continuous infusion) system
@@ -100,28 +78,6 @@ Among his most cited work, the study with Ausems, Stanski, and Burm defined the 
 
 ---
 
-## FDA — U.S. Food and Drug Administration
-
-**Carl C. Peck** — physician and clinical pharmacologist; first Director of the FDA Center for Drug Evaluation and Research (CDER), 1987–1994 `[verify: 1993 vs 1994]`; founder of the Center for Drug Development Science
-
-Carl Peck is among the most influential advocates for quantitative, model-based drug development and for embedding pharmacokinetic/pharmacodynamic (PK/PD) and exposure-response reasoning into regulatory decision-making. Trained in internal medicine and clinical pharmacology, he directed the Division of Clinical Pharmacology at the Uniformed Services University of the Health Sciences (1980–1987) before becoming the first Director of CDER when the FDA split its drug and biologics centers in 1987, and he led CDER until 1994.
-
-At and after the FDA, Peck argued that drug development should be a structured, quantitative learning process rather than a series of isolated trials. Working alongside Lewis B. Sheiner and other pioneers of population PK/PD, he helped popularize the "learn and confirm" paradigm and pushed for exposure-response analysis, population modeling, and simulation as tools for dose selection and labeling — the same modeling tradition that underlies target-controlled infusion (TCI) and PK/PD models for anesthetics. In 1994 he founded the Center for Drug Development Science (CDDS) at Georgetown University Medical Center, later affiliated with the UCSF School of Pharmacy. He received the ASCPT Sheiner–Beal Pharmacometrics Award in 2017.
-
-*Key reference:* Peck CC, Barr WH, Benet LZ, et al. Opportunities for integration of pharmacokinetics, pharmacodynamics, and toxicokinetics in rational drug development. Pharm Res. 1992;9(6):826–833.
-
----
-
-**Daniel A. Spyker** — physician-engineer (PhD, MD) and pharmacokineticist; academic clinical pharmacology (University of Virginia), later FDA medical officer (CDER)
-
-Daniel Spyker combines formal quantitative training with clinical medicine: a PhD in electrical engineering and mathematics and an MD, with board certifications in internal medicine, medical toxicology, and clinical pharmacology `[verify]`. For roughly a decade he served on the internal-medicine faculty in the Division of Clinical Pharmacology at the University of Virginia, where he helped build the Blue Ridge Poison Center and applied compartmental modeling and Bayesian pharmacokinetic methods to dosing and poisoning problems — bridging rigorous PK analysis with clinical toxicology and poison-control practice.
-
-His early research produced quantitative pharmacokinetic studies of antibiotics, including dose-dependent (nonlinear) absorption of amoxicillin across intravenous, oral, and intramuscular routes — work still cited in modern analyses of amoxicillin absorption kinetics. He later served as a Medical Officer in FDA's CDER (Pilot Drug Evaluation Staff), contributing to pharmacokinetics, exposure-response, and dose/exposure evaluation in the review setting, and subsequently worked in the Center for Devices and Radiological Health (CDRH). His career reflects the same emphasis on quantitative clinical pharmacology and model-based analysis that characterizes the PK/PD tradition used in anesthetic simulation.
-
-*Key reference:* Spyker DA, Rugloski RJ, Vann RL, O'Brien WM. Pharmacokinetics of amoxicillin: dose dependence after intravenous, oral, and intramuscular administration. Antimicrob Agents Chemother. 1977;11(1):132–141.
-
----
-
 ## Ghent University & Demed Engineering (Belgium)
 
 **Tom De Smet** — biomedical engineer; developer of RUGLOOP/TOOLBOX TCI software; founder of Demed Engineering, Temse (Belgium)
@@ -134,7 +90,7 @@ His methodological contributions include simulation-based performance evaluation
 
 ---
 
-## Harvard Medical School — Boston (MGH & Brigham and Women's Hospital)
+## Harvard Medical School (MGH & Brigham and Women's Hospital, Boston)
 
 **James H. Philip** — anesthesiologist and bioengineer, Brigham and Women's Hospital; author of the "Gas Man" simulation `[verify: you wrote "James Philips"; correct name is "James H. Philip"]`
 
@@ -368,6 +324,28 @@ Coetzee is known for rigorous clinical evaluation of propofol pharmacokinetic pa
 
 ---
 
+## U.S. Food and Drug Administration (FDA)
+
+**Carl C. Peck** — physician and clinical pharmacologist; first Director of the FDA Center for Drug Evaluation and Research (CDER), 1987–1994 `[verify: 1993 vs 1994]`; founder of the Center for Drug Development Science
+
+Carl Peck is among the most influential advocates for quantitative, model-based drug development and for embedding pharmacokinetic/pharmacodynamic (PK/PD) and exposure-response reasoning into regulatory decision-making. Trained in internal medicine and clinical pharmacology, he directed the Division of Clinical Pharmacology at the Uniformed Services University of the Health Sciences (1980–1987) before becoming the first Director of CDER when the FDA split its drug and biologics centers in 1987, and he led CDER until 1994.
+
+At and after the FDA, Peck argued that drug development should be a structured, quantitative learning process rather than a series of isolated trials. Working alongside Lewis B. Sheiner and other pioneers of population PK/PD, he helped popularize the "learn and confirm" paradigm and pushed for exposure-response analysis, population modeling, and simulation as tools for dose selection and labeling — the same modeling tradition that underlies target-controlled infusion (TCI) and PK/PD models for anesthetics. In 1994 he founded the Center for Drug Development Science (CDDS) at Georgetown University Medical Center, later affiliated with the UCSF School of Pharmacy. He received the ASCPT Sheiner–Beal Pharmacometrics Award in 2017.
+
+*Key reference:* Peck CC, Barr WH, Benet LZ, et al. Opportunities for integration of pharmacokinetics, pharmacodynamics, and toxicokinetics in rational drug development. Pharm Res. 1992;9(6):826–833.
+
+---
+
+**Daniel A. Spyker** — physician-engineer (PhD, MD) and pharmacokineticist; academic clinical pharmacology (University of Virginia), later FDA medical officer (CDER)
+
+Daniel Spyker combines formal quantitative training with clinical medicine: a PhD in electrical engineering and mathematics and an MD, with board certifications in internal medicine, medical toxicology, and clinical pharmacology `[verify]`. For roughly a decade he served on the internal-medicine faculty in the Division of Clinical Pharmacology at the University of Virginia, where he helped build the Blue Ridge Poison Center and applied compartmental modeling and Bayesian pharmacokinetic methods to dosing and poisoning problems — bridging rigorous PK analysis with clinical toxicology and poison-control practice.
+
+His early research produced quantitative pharmacokinetic studies of antibiotics, including dose-dependent (nonlinear) absorption of amoxicillin across intravenous, oral, and intramuscular routes — work still cited in modern analyses of amoxicillin absorption kinetics. He later served as a Medical Officer in FDA's CDER (Pilot Drug Evaluation Staff), contributing to pharmacokinetics, exposure-response, and dose/exposure evaluation in the review setting, and subsequently worked in the Center for Devices and Radiological Health (CDRH). His career reflects the same emphasis on quantitative clinical pharmacology and model-based analysis that characterizes the PK/PD tradition used in anesthetic simulation.
+
+*Key reference:* Spyker DA, Rugloski RJ, Vann RL, O'Brien WM. Pharmacokinetics of amoxicillin: dose dependence after intravenous, oral, and intramuscular administration. Antimicrob Agents Chemother. 1977;11(1):132–141.
+
+---
+
 ## Universidad Católica & Universidad de Chile (Santiago / Viña del Mar)
 
 **Luis Ignacio Cortínez** — anesthesiologist and pharmacometrician, Pontificia Universidad Católica de Chile; population PK/PD, TCI, and allometric scaling
@@ -505,3 +483,25 @@ Kern is best known in this area for a volunteer study, published back-to-back wi
 Westenskow built one of the longest-running academic programs in automated anesthesia delivery and monitoring. Beginning in the 1970s with oxygen-consumption measurement during anesthesia, he turned to feedback control in 1977 and, over the following decades, demonstrated closed-loop controllers for volatile-anesthetic and respiratory-gas delivery, blood pressure (e.g., nitroprusside infusion), neuromuscular blockade, mechanical ventilation, and fluid resuscitation — showing that automatic controllers could match expert clinicians. His group integrated these controllers into the concept of an automated "anesthesia workstation," and he made major contributions to intelligent alarms, artificial-neural-network signal processing, and noninvasive monitoring (including CO2-rebreathing cardiac output). Much of this work connects the pharmacokinetic/pharmacodynamic modeling of anesthetics to the engineering of the sensors and controllers needed to deliver them safely in real time.
 
 *Key reference:* Westenskow DR, Wallroth CF. Closed-loop control for anesthesia breathing systems. J Clin Monit. 1990;6(3):249–256. `[verify: issue number]`
+
+---
+
+## Vrije Universiteit Brussel (VUB), Belgium
+
+**Frederic Camu** — emeritus professor and long-time chair of anesthesiology, Vrije Universiteit Brussel
+
+Frederic Camu was a Belgian anesthesiologist who led the Department of Anesthesiology at the Vrije Universiteit Brussel (VUB) for many years and built a research program centered on the clinical pharmacology of intravenous anesthetics, opioids, and analgesics — including their effects on hemodynamics, respiratory control, and acute nociception `[verify]`. Working at Brussels in the mid-1980s, he collaborated with Elisabeth Gepts on the human disposition studies of propofol that would become foundational to modern target-controlled infusion (TCI).
+
+Camu was a co-author of the 1987 Gepts et al. constant-rate infusion study, whose three-compartment parameter set was later adapted by Marsh, White, Morton, and Kenny into the "Marsh" model used in the Diprifusor and many subsequent TCI systems, and against which Coetzee and colleagues benchmarked propofol model performance. Frederic Camu passed away in 2024.
+
+*Key reference:* Gepts E, Camu F, Cockshott ID, Douglas EJ. Disposition of propofol administered as constant rate intravenous infusions in humans. Anesth Analg. 1987;66(12):1256–1263.
+
+---
+
+**Elisabeth Gepts** — clinical-pharmacology researcher in anesthesiology; source of the propofol disposition dataset underlying the Marsh model
+
+Elisabeth Gepts (published as "Gepts E") was a Brussels-based clinical pharmacology and anesthesiology researcher whose 1987 study of propofol disposition during constant-rate intravenous infusion provided the parameter estimates that underpin one of the most widely deployed pharmacokinetic models in anesthesia. In that work she and colleagues administered propofol at 3, 6, and 9 mg·kg⁻¹·hr⁻¹ to surgical patients under regional anesthesia, sampled arterial blood during and after infusion, and fitted the data to a three-compartment open mammillary model with central elimination — establishing the volumes and clearances that describe propofol disposition in humans.
+
+That dataset, produced through the Camu–Gepts collaboration at the Free University of Brussels, was subsequently adapted by Marsh, White, Morton, and Kenny (1991) into the weight-proportional "Marsh" model implemented in the AstraZeneca Diprifusor and in numerous later TCI pumps; it also served as a reference point in Coetzee et al.'s comparative evaluations of propofol PK models. Gepts is credited with later helping to recover the original source data underlying these parameters.
+
+*Key reference:* Gepts E, Camu F, Cockshott ID, Douglas EJ. Disposition of propofol administered as constant rate intravenous infusions in humans. Anesth Analg. 1987;66(12):1256–1263.
