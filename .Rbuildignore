@@ -1,0 +1,14 @@
+^app\.R$
+^rsconnect$
+^stanpumpRHelp\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^README\.md$
+^TODO\.md$
+^docs$
+^tools$
+^cancel\.\.jpg$
+^cancel\.png$
+^\.git$
+^\.gitignore$
+^\.github$

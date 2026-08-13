@@ -1,7 +1,14 @@
-# stanpumpR_HelpPage
+# Server for the stanpumpR help app.
+#
+# Provenance: originally the script-app server.R (Steven L. Shafer, 2019);
+# converted to a named package function in August 2026 (Claude Opus 4.8,
+# reviewed by S. Shafer) as part of mirroring the stanpumpR package layout.
 
-# server function ----------------------------------------------------------------------------------
-function(input, output, session)
+#' Server function for the stanpumpR help app
+#'
+#' @param input,output,session Standard Shiny server arguments.
+#' @keywords internal
+app_server <- function(input, output, session)
 {
   # Write out logs to the log section
   initLogMsg <- "Comments Log"
@@ -21,7 +28,7 @@ function(input, output, session)
     if (is.data.frame((text)))
     {
       con <- textConnection("outputString","w",local=TRUE)
-      capture.output(print(text, digits = 3), file = con, type="output", split = FALSE)
+      utils::capture.output(print(text, digits = 3), file = con, type="output", split = FALSE)
       close(con)
       if (echo)
       {
