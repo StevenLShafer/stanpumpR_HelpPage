@@ -77,13 +77,6 @@ function(request) {
                     ) # end HTML
                   ) # end tags$style
                 ), # end tags$head
-                tags$head(
-                  tags$link(
-                    rel = "shortcut icon",
-                    type = "image/x-icon",
-                    href = "logo.ico"
-                  )
-                ), # end tags$head
                 fluidRow(
                   tags$p(
                     style = "padding: 40px; font-size: 16px",
@@ -150,13 +143,6 @@ function(request) {
                 }'
                     ) # end HTML
                   ) # end tags$style
-                ), # end tags$head
-                tags$head(
-                  tags$link(
-                    rel = "shortcut icon",
-                    type = "image/x-icon",
-                    href = "logo.ico"
-                  )
                 ), # end tags$head
                 fluidRow(
                   tags$p(
@@ -272,13 +258,6 @@ function(request) {
                 }'
                     ) # end HTML
                   ) # end tags$style
-                ), # end tags$head
-                tags$head(
-                  tags$link(
-                    rel = "shortcut icon",
-                    type = "image/x-icon",
-                    href = "logo.ico"
-                  )
                 ), # end tags$head
                 fluidRow(
                   tags$p(
@@ -1198,7 +1177,7 @@ function(request) {
                     # Coetzee  *************
                     tabPanel(
                       title = "Johan Coetzee",
-                      value = "Eleveld",
+                      value = "Coetzee",
                       fluidRow(
                         style = "padding-left: 40px; ",
                         tags$p(
@@ -1380,7 +1359,7 @@ function(request) {
                     # Thomas Schnider *************
                     tabPanel(
                       title = "Thomas Schnider",
-                      value = "Eleveld",
+                      value = "Schnider",
                       fluidRow(
                         style = "padding-left: 40px; ",
                         tags$p(

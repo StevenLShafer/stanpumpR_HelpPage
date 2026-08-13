@@ -20,8 +20,8 @@ without triggering the package's build/check/release cycle.
 | `global.R` | Loads libraries; enables URL bookmarking. |
 | `server.R` | Server function (comments/log plumbing, active-tab title). |
 | `ui.R` | The dashboard UI — the Examples and Help content itself. |
-| `app.css` | Styling for the log section. |
-| `shinyjs-funcs.js` | Small shinyjs helper (auto-scrolls the log). |
+| `www/app.css` | Styling for the log section (served as a static asset). |
+| `www/shinyjs-funcs.js` | Small shinyjs helper, auto-scrolls the log (served as a static asset). |
 | `deploy.R` | `deploy()` helper that pushes the app to shinyapps.io. |
 
 ## Running locally
