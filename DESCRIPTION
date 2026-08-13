@@ -30,3 +30,4 @@ Collate:
   app_server.R
   app_run.R
 Config/roxygen2/version: 8.1.0
+Config/testthat/edition: 3
