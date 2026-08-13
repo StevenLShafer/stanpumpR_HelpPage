@@ -6,3 +6,20 @@
   overflow-y:scroll;
   max-height: 100px;
 }
+
+/* Readability styling for the contributor bios rendered under
+   Help > Acknowledgements from inst/extdata/pk-author-summaries.md. */
+.authors-panel {
+  max-width: 820px;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+.authors-panel h1 { font-size: 1.6rem; }
+.authors-panel h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: .25rem;
+}
+.authors-panel h2:first-of-type { margin-top: .5rem; }
+.authors-panel hr { border: 0; border-top: 1px solid #eee; margin: 1.5rem 0; }
+.authors-panel code { background: #f6f8fa; padding: 0 .3em; border-radius: 3px; }

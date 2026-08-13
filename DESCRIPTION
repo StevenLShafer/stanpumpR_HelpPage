@@ -12,6 +12,7 @@ Description: A lightweight Shiny application serving the Examples and Help
     shinyapps.io and reached from stanpumpR via its help_link configuration.
 License: MIT + file LICENSE
 Imports:
+  markdown,
   shiny,
   shinydashboard,
   shinyjs,

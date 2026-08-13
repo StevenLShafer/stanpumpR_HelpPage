@@ -24,8 +24,42 @@ nonetheless structured as an R *package* that mirrors stanpumpR's layout (`R/`,
 | `R/zzz.R` | `.onLoad` registers `inst/www` under the `stanpumprhelp-assets` path. |
 | `R/stanpumpRHelp-package.R` | Package doc and namespace imports. |
 | `inst/www/app.css` | Static styling (served via the resource path). |
+| `inst/extdata/pk-author-summaries.md` | Contributor bios shown under **Help → Acknowledgements**, rendered by `includeMarkdown()`. Edit to update the bios (see below). |
 | `tools/deploy.R` | `deploy()` helper that pushes the app to shinyapps.io. |
 | `tests/testthat/` | Smoke tests (package wiring). |
+
+## Updating the contributor bios (Acknowledgements)
+
+The **Help → Acknowledgements** tab is rendered from a single Markdown file,
+`inst/extdata/pk-author-summaries.md`, via
+`includeMarkdown(system.file("extdata", "pk-author-summaries.md", package = "stanpumpRHelp"))`
+in `R/app_ui.R`. That file is the single source of truth — edit it directly; there is no
+generated or compiled copy to keep in sync.
+
+**File structure**
+
+- Each `## Heading` is an **institution** section, ordered alphabetically by the institution's
+  salient name (the word the heading leads with — e.g. *Bonn*, *California*, *Stanford*, *Utah*).
+- Within a section, each contributor is one entry beginning with a bold name line — e.g.
+  `**Jane Q. Doe (b. 1950)** — role / affiliation tag` — followed by one to three paragraphs and a
+  closing `*Key reference:*` line. Entries are ordered alphabetically by surname.
+- Section headers and entries are separated by a `---` horizontal rule.
+
+**To add a contributor:** copy an existing entry as a template, place it in the correct
+institution section in surname order (or add a new `## Institution` section in its alphabetical
+position), and separate it from its neighbours with `---`.
+
+**To edit or remove a contributor:** change or delete that entry (and one adjacent `---`).
+
+**Notes**
+
+- Inline `` `[verify]` `` tags flag facts or citation details that still need confirmation. Find
+  them all before publishing: `grep -n "verify" inst/extdata/pk-author-summaries.md`.
+- Rendering uses the `markdown` package (an `Imports:` dependency in `DESCRIPTION`, pinned in
+  `renv.lock`). If you change dependencies, run `renv::snapshot()`.
+- Readability styling for this page lives in the `.authors-panel` rules in `inst/www/app.css`.
+- After editing, preview with `devtools::load_all("."); run_app()`, then redeploy via
+  `source("tools/deploy.R"); deploy()`.
 
 ## Running locally
 

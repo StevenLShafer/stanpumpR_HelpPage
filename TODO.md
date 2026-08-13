@@ -15,12 +15,12 @@ impact.
   Morphine, Naloxone, Oxycodone, Oxytocin, Pethidine, Propofol, Remifentanil,
   Rocuronium, Sufentanil.
 
-- [ ] **Acknowledgement tabs are empty.** Every contributor tab under
-  **Help → Acknowledgements** contains only a `"."` placeholder (Ausems, Bailey,
-  Coetzee, Cortinez, De Smet, Eleveld, Egan, Engbers, Gambus, Glass, Glen,
-  Jacobs, Kenny, Minto, Reves, Shafer, Schnider, Schwilden, Sepulveda, Stanski,
-  Stutzin, Struys, Westenskow). Add a short bio / contribution note for each, or
-  collapse into a single credits list.
+- [x] **Acknowledgement bios added.** The empty per-contributor placeholder tabs
+  were replaced with a single page grouped by institution, rendered from
+  `inst/extdata/pk-author-summaries.md` (50 contributors, alphabetized by
+  institution and by surname within each). Remaining `[verify]` tags in that file
+  (birth years and a few citation specifics) still need confirmation before the
+  next deploy — `grep -n "verify" inst/extdata/pk-author-summaries.md`.
 
 ## Content: wrong headers / copy-paste errors in "How to …"
 
