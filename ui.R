@@ -51,7 +51,7 @@ function(request) {
           h2("Examples"),
           fluidRow(
             tabsetPanel(
-              id = "tabId",
+              id = "examplesTabset",
 
               ################################################################################################
               tabPanel( # Some representative cases
@@ -313,7 +313,7 @@ function(request) {
           h2("Help"),
           fluidRow(
             tabsetPanel(
-              id = "tabId",
+              id = "helpTabset",
 
               ################################################################################################
               tabPanel(
@@ -466,7 +466,7 @@ function(request) {
                   style = "padding-left: 40px; ",
 
                   tabsetPanel(
-                    id = "tabId",
+                    id = "drugsTabset",
 
                     ################################################################################################
                     # Alfentanil *************
@@ -786,7 +786,7 @@ function(request) {
                   style = "padding-left: 40px; ",
 
                   tabsetPanel(
-                    id = "tabId",
+                    id = "addedPlotsTabset",
 
                     ################################################################################################
                     # MEAC *************
@@ -921,7 +921,7 @@ function(request) {
                   style = "padding-left: 40px; ",
 
                   tabsetPanel(
-                    id = "tabId",
+                    id = "howToTabset",
 
                     ################################################################################################
                     # Add a drug *************
@@ -1146,7 +1146,7 @@ function(request) {
                   ), # end p
 
                   tabsetPanel(
-                    id = "tabId",
+                    id = "acknowledgementsTabset",
 
                     # Max Ausems  *************
                     tabPanel(
