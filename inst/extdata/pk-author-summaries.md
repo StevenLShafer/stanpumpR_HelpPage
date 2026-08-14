@@ -132,6 +132,26 @@ Glen — a Scottish veterinary surgeon by training, who publishes and is widely 
 
 ---
 
+**David B. Goodale** — clinical development scientist, ICI / Zeneca / AstraZeneca (propofol program)
+
+David B. Goodale was a scientist in the clinical pharmacology and development organization at ICI Pharmaceuticals and its successors Zeneca and AstraZeneca — the company that developed and marketed propofol (Diprivan). In that role he collaborated with academic investigators, including the Stanford group and its Bern collaborators, on the clinical pharmacology of intravenous anesthetics. He is a co-author on the Schnider propofol pharmacokinetic study, contributing the industry/development perspective to a study that became a foundation for propofol target-controlled infusion, and he co-authored related propofol development work.
+
+*Key reference:* Schnider TW, Minto CF, Gambus PL, Andresen C, Goodale DB, Shafer SL, Youngs EJ. The influence of method of administration and covariates on the pharmacokinetics of propofol in adult volunteers. Anesthesiology. 1998;88(5):1170–1182.
+
+---
+
+## Institut Gustave Roussy (France)
+
+**Frédérique Servin** — anesthesiologist; propofol pharmacokinetics in special populations and TCI `[verify: you listed her under Institut Gustave Roussy, but PubMed/AP-HP records place Servin at Hôpital Bichat–Claude Bernard, Paris]`
+
+Frédérique Servin is a French anesthesiologist known for her pharmacokinetic characterization of propofol in special populations and for her work on total intravenous anesthesia (TIVA) and target-controlled infusion (TCI). In an influential 1988 study she and colleagues described the pharmacokinetics and protein binding of propofol in patients with hepatic cirrhosis, showing that overall disposition and protein binding were largely preserved despite liver disease — an early demonstration relevant to dosing propofol in patients with impaired hepatic function. She subsequently examined propofol infusion for maintenance of anesthesia in morbidly obese patients, providing pharmacokinetic and recovery data that became a standard reference for scaling propofol dosing to body weight in obesity and that continues to inform TCI dosing models.
+
+Across her career Servin has contributed to the clinical pharmacology of intravenous anesthetics, TCI implementation, and dosing in challenging populations, and remains an active contributor to the European intravenous-anesthesia and TCI literature.
+
+*Key references:* Servin F, Desmonts JM, Haberer JP, Cockshott ID, Plummer GF, Farinotti R. Pharmacokinetics and protein binding of propofol in patients with cirrhosis. Anesthesiology. 1988;69(6):887–891. • Servin F, Farinotti R, Haberer JP, Desmonts JM. Propofol infusion for maintenance of anesthesia in morbidly obese patients receiving nitrous oxide: a clinical and pharmacokinetic study. Anesthesiology. 1993;78(4):657–665.
+
+---
+
 ## Leiden University Medical Center (Netherlands)
 
 **M. E. Ausems** — anesthesiologist; alfentanil pharmacokinetics/pharmacodynamics and model-based ("computer-assisted") infusion `[verify: first name — the help page lists "Max"; publications use initials "M. E. Ausems"]`
@@ -218,6 +238,24 @@ This front-end perspective is directly relevant to bolus and infusion behavior o
 
 ## Stanford University
 
+**Corina Andresen** — research collaborator, Stanford University (Shafer laboratory) `[verify: you wrote "Corina Anderson"; publications show "Andresen C" (Schnider 1998, Bouillon 2003/2004) — confirm surname and given-name spelling]`
+
+Corina Andresen was a collaborator associated with Steven L. Shafer's Stanford group whose name appears as a co-author on several of the group's core intravenous-anesthetic modeling studies. She is credited on the Schnider propofol pharmacokinetic study that underlies the widely used propofol target-controlled infusion model, and on the Bouillon et al. remifentanil ventilatory-depression and propofol–remifentanil interaction papers. Her documented role is as a study co-author on these projects; there is no substantial independent anesthesia PK/PD publication record under this name, so the entry is deliberately brief and scoped to that contribution.
+
+*Key references:* Schnider TW, Minto CF, Gambus PL, Andresen C, Goodale DB, Shafer SL, Youngs EJ. The influence of method of administration and covariates on the pharmacokinetics of propofol in adult volunteers. Anesthesiology. 1998;88(5):1170–1182. • Bouillon T, Bruhn J, Radu-Radulescu L, Andresen C, Cohane C, Shafer SL. A model of the ventilatory depressant potency of remifentanil in the non–steady state. Anesthesiology. 2003;99(4):779–787.
+
+---
+
+**Valérie Billard** — anesthesiologist; research fellow with Steven L. Shafer at Stanford (later Institut Gustave Roussy, Villejuif, France)
+
+Valérie Billard is a French anesthesiologist whose foundational pharmacodynamic work was done as a research fellow in Steven L. Shafer's laboratory at Stanford, in close collaboration with Donald R. Stanski's group. There she investigated quantitative electroencephalographic (EEG) measures of anesthetic drug effect, comparing processed-EEG descriptors as pharmacodynamic endpoints for intravenous anesthetics and opioids. Her best-known study, co-authored with Pedro L. Gambús, systematically compared spectral edge frequency, delta power, and the bispectral index (BIS) as measures of the drug effect of alfentanil, propofol, and midazolam, characterizing the concentration–effect relationship and the temporal (ke0) delay between plasma concentration and EEG effect for each agent. This work helped establish BIS and related EEG measures as pharmacodynamic tools for propofol and opioid anesthesia and informed subsequent modeling of hypnotic–opioid interaction.
+
+After her Stanford fellowship, Billard returned to France, where she has been an anesthesiologist at the Institut Gustave Roussy in Villejuif, with continuing interests in anesthetic drug pharmacology, drug delivery and target-controlled infusion (TCI), and intraoperative monitoring.
+
+*Key reference:* Billard V, Gambus PL, Chamoun N, Stanski DR, Shafer SL. A comparison of spectral edge, delta power, and bispectral index as EEG measures of alfentanil, propofol, and midazolam drug effect. Clin Pharmacol Ther. 1997;61(1):45–58.
+
+---
+
 **Thomas W. Bouillon** — anesthesiologist and clinical pharmacologist; research fellow with Steven L. Shafer at Stanford (later University of Bern and the pharmaceutical industry); response-surface modeling of the propofol–remifentanil interaction
 
 Thomas Bouillon is an anesthesiologist and clinical pharmacologist whose work centers on the quantitative PK/PD of intravenous anesthetics. As a research fellow in Steven L. Shafer's laboratory at Stanford, he became a leading contributor to response-surface modeling of the propofol–remifentanil interaction, characterizing how a hypnotic and an opioid combine across the full range of clinically relevant effect-site concentrations rather than at isolated dose pairs. His landmark 2004 study quantified the interaction for multiple endpoints simultaneously — hypnosis (no response to shaking and shouting), tolerance of laryngoscopy, and the processed-EEG measures bispectral index (BIS) and approximate entropy — demonstrating marked synergy for the clinical endpoints while the EEG measures behaved more additively. This work is a cornerstone of modern effect-site-targeted, interaction-aware anesthetic dosing.
@@ -278,6 +316,18 @@ Hu subsequently built a long career in pharmacometrics in the pharmaceutical ind
 
 ---
 
+**Orlando R. Hung** — anesthesiologist and clinical pharmacologist; research fellow with the Stanford anesthesia PK/PD group (later Dalhousie University, Halifax, Canada)
+
+As a research fellow and collaborator in the Stanford laboratory of Donald R. Stanski, Orlando R. Hung contributed to the quantitative characterization of intravenous anesthetic pharmacodynamics, working alongside Steven L. Shafer and James R. Varvel. His work centered on thiopental, using the spectral-edge and related quantitative electroencephalographic (EEG) measures the group had developed to link measured drug effect to serum concentration, and then relating that EEG-based measure of drug effect to clinical signs of anesthetic depth. This line of research helped establish the effect-site concentration framework and the use of processed EEG as an objective, continuous measure of the central-nervous-system effect of intravenous anesthetics.
+
+Hung is the lead author of the second paper in the Stanford thiopental pharmacodynamics series, which quantified the relationship between clinical depth of anesthesia (graded responses to escalating stimuli) and the concurrent EEG measure of thiopental effect. Together with the companion report defining the concentration–EEG relationship, this work is widely cited in the development of EEG-based depth-of-anesthesia monitoring and in models of intravenous anesthetic effect.
+
+He subsequently built his career at Dalhousie University in Halifax, Nova Scotia, Canada, where he became widely known for research and device development in airway management. `[verify: exact fellowship dates and academic titles]`
+
+*Key reference:* Hung OR, Varvel JR, Shafer SL, Stanski DR. Thiopental pharmacodynamics. II. Quantitation of clinical and electroencephalographic depth of anesthesia. Anesthesiology. 1992;77(2):237–244.
+
+---
+
 **Pierre O. Maitre** — clinical pharmacologist; population pharmacokinetics of intravenous anesthetics, Stanford University `[verify: primary affiliation]`
 
 Pierre Maitre worked with Donald Stanski's anesthesia clinical-pharmacology group at Stanford, applying population pharmacokinetic methods (drawn in part from the mixed-effects modeling tradition of Lewis Sheiner and Samuel Vozeh) to anesthetic and sedative drugs. His most influential contribution characterized the population pharmacokinetics of alfentanil, pooling plasma-concentration data across multiple studies to define the average dose–concentration relationship and, critically, to quantify interindividual variability and the systematic effects of covariates such as age and body weight on clearance and distribution. This covariate-and-variability framing is precisely the structure that later model-based dosing and target-controlled infusion (TCI) systems require, and it is echoed in the covariate-driven parameterization used in stanpumpR.
@@ -306,6 +356,14 @@ Minto, during his research fellowship at Stanford in Steven Shafer's laboratory 
 
 ---
 
+**L. Radu-Radulescu** — research collaborator, Stanford University (Shafer laboratory) `[verify: exact name form — publications use "Radu-Radulescu L" (2003) and "Radulescu L" (2004)]`
+
+L. Radu-Radulescu was a collaborator in Steven L. Shafer's Stanford group who contributed to its modeling of opioid- and hypnotic-induced ventilatory depression and drug interaction. The name appears in the Bouillon et al. studies characterizing the ventilatory-depressant potency of remifentanil in the non–steady state and, in the interaction series, the pharmacodynamic interaction between propofol and remifentanil. These papers used non-steady-state respiratory data and response-surface methods to quantify how opioids and hypnotics combine to depress ventilation and produce hypnosis. The documented contribution is as a co-author on these interaction/ventilation modeling papers; the independent publication record under this name is limited, so the entry is scoped accordingly.
+
+*Key references:* Bouillon T, Bruhn J, Radu-Radulescu L, Andresen C, Cohane C, Shafer SL. A model of the ventilatory depressant potency of remifentanil in the non–steady state. Anesthesiology. 2003;99(4):779–787. • Bouillon TW, Bruhn J, Radulescu L, Andresen C, Shafer TJ, Cohane C, Shafer SL. Pharmacodynamic interaction between propofol and remifentanil regarding hypnosis, tolerance of laryngoscopy, bispectral index, and electroencephalographic approximate entropy. Anesthesiology. 2004;100(6):1353–1372.
+
+---
+
 **Thomas W. Schnider** — anesthesiologist; research fellow with Steven Shafer at Stanford; developer of the Schnider propofol PK/PD model widely used for TCI (later head of the Institute for Anaesthesiology, Kantonsspital St. Gallen, Switzerland)
 
 Schnider, during his research fellowship at Stanford in Steven Shafer's laboratory (with Charles Minto), derived the covariate-based propofol pharmacokinetic and pharmacodynamic models that are among the most widely implemented in commercial effect-site TCI pumps. The pharmacokinetic study defined how method of administration and covariates (age, weight, height, lean body mass) influence propofol disposition, and the companion pharmacodynamic study quantified the influence of age on propofol effect and on the plasma–effect-site equilibration constant (ke0), enabling effect-site targeting. He later became head of the Institute for Anaesthesiology at Kantonsspital St. Gallen, Switzerland, and co-founded the Open TCI Initiative with Minto.
@@ -321,6 +379,14 @@ Steven Shafer is known for translating anesthetic PK/PD theory into working drug
 Shafer's research spans opioid and hypnotic pharmacology, population modeling, and the pharmacokinetic concepts clinicians use to reason about infusion regimens — including context-sensitive decrement times and rational drug selection based on predicted concentration trajectories. He has also been influential in research integrity and publication ethics, including a long tenure as Editor-in-Chief of Anesthesia & Analgesia.
 
 *Key references:* Shafer SL, Gregg KM. Algorithms to rapidly achieve and maintain stable drug concentrations at the site of drug effect with a computer-controlled infusion pump. J Pharmacokinet Biopharm. 1992;20(2):147–169. • Shafer SL, Varvel JR. Pharmacokinetics, pharmacodynamics, and rational opioid selection. Anesthesiology. 1991;74(1):53–63.
+
+---
+
+**Jacques Somma** — anesthesiologist; research fellow with Steven L. Shafer at Stanford (later Université Laval, Québec)
+
+Jacques Somma was a research fellow with Steven L. Shafer at Stanford, where he worked on the population pharmacokinetics and pharmacodynamics of sedative and anesthetic agents delivered by computer-controlled (target-controlled) infusion. With Katharine Zomorodi and colleagues he carried out a paired set of studies on midazolam sedation in cardiac surgical patients following coronary artery bypass grafting: Somma led the pharmacodynamic analysis, modeling the concentration–sedation relationship in the surgical ICU, while the companion paper characterized the population pharmacokinetics. This work is frequently cited in the context of ICU sedation modeling and midazolam/flumazenil pharmacology. He subsequently returned to Canada and has practiced and taught anesthesiology at Université Laval in Québec City.
+
+*Key reference:* Somma J, Donner A, Zomorodi K, Sladen R, Ramsay J, Geller E, Shafer SL. Population pharmacodynamics of midazolam administered by target controlled infusion in SICU patients after CABG surgery. Anesthesiology. 1998;89(6):1430–1443.
 
 ---
 
@@ -351,6 +417,24 @@ Russ Wada received his PhD from UCLA (1991) and completed a postdoctoral fellows
 After academia, Wada moved into pharmacometrics consulting, joining Pharsight Corporation (later part of Certara) in 1997 and subsequently Certara/Quantitative Solutions, and more recently QuanTx Consulting, becoming a recognized leader in model-based drug development across many therapeutic areas.
 
 *Key reference:* Wada DR, Björkman S, Ebling WF, Harashima H, Harapat SR, Stanski DR. Computer simulation of the effects of alterations in blood flows and body composition on thiopental pharmacokinetics in humans. Anesthesiology. 1997;87(4):884–899.
+
+---
+
+**Elizabeth J. Youngs** — anesthesiologist and research fellow, Stanford University (Shafer laboratory) `[verify: first name spelling — Elizabeth vs Elisabeth]`
+
+Elizabeth J. Youngs trained as a research fellow with Steven L. Shafer at Stanford, where she worked on the pharmacokinetic and pharmacodynamic basis of recovery from intravenous anesthetics and opioids. Her most influential contribution is a 1994 analysis with Shafer that reframed how clinicians think about offset of opioid effect: rather than relying on the terminal elimination half-life, the work used simulation of multicompartment models to show that the time for concentrations to decline depends on infusion duration and the chosen degree of decrement. This "decrement time" framing is the conceptual companion to the context-sensitive half-time and remains a standard tool for comparing recovery profiles among opioids.
+
+Youngs was also a co-author on the landmark Schnider propofol pharmacokinetic study conducted with the Stanford group and collaborators in Bern, which characterized the influence of dosing method and patient covariates on propofol disposition and underpins the widely used "Schnider" target-controlled infusion model.
+
+*Key references:* Youngs EJ, Shafer SL. Pharmacokinetic parameters relevant to recovery from opioids. Anesthesiology. 1994;81(4):833–842. • Schnider TW, Minto CF, Gambus PL, Andresen C, Goodale DB, Shafer SL, Youngs EJ. The influence of method of administration and covariates on the pharmacokinetics of propofol in adult volunteers. Anesthesiology. 1998;88(5):1170–1182.
+
+---
+
+**Katharine Zomorodi** — pharmacometrician; research fellow with Steven L. Shafer at Stanford (later industry pharmacometrics) `[verify: full given name — publications use "Zomorodi K"]`
+
+Katharine (Katie) Zomorodi was a fellow in Steven L. Shafer's laboratory at Stanford, contributing to the group's population modeling of intravenous sedatives. With Jacques Somma and colleagues she authored the population pharmacokinetic half of the paired midazolam target-controlled infusion studies in post-cardiac-surgery patients, quantifying midazolam disposition during prolonged sedation in the surgical ICU. She subsequently pursued a career in clinical pharmacology and pharmacometrics in the pharmaceutical industry.
+
+*Key reference:* Zomorodi K, Donner A, Somma J, Barr J, Sladen R, Ramsay J, Geller E, Shafer SL. Population pharmacokinetics of midazolam administered by target controlled infusion for sedation following coronary artery bypass grafting. Anesthesiology. 1998;89(6):1418–1429.
 
 ---
 
