@@ -346,7 +346,7 @@ This front-end perspective is directly relevant to bolus and infusion behavior o
 
 ## Stanford University
 
-**Corina Andresen** — research collaborator, Stanford University (Shafer laboratory) `[verify: you wrote "Corina Anderson"; publications show "Andresen C" (Schnider 1998, Bouillon 2003/2004) — confirm surname and given-name spelling]`
+**Corina Andresen** — research collaborator, Stanford University (Shafer laboratory)
 
 Corina Andresen was a collaborator associated with Steven L. Shafer's Stanford group whose name appears as a co-author on several of the group's core intravenous-anesthetic modeling studies. She is credited on the Schnider propofol pharmacokinetic study that underlies the widely used propofol target-controlled infusion model, and on the Bouillon et al. remifentanil ventilatory-depression and propofol–remifentanil interaction papers. Her documented role is as a study co-author on these projects; there is no substantial independent anesthesia PK/PD publication record under this name, so the entry is deliberately brief and scoped to that contribution.
 
@@ -524,7 +524,7 @@ Minto, during his research fellowship at Stanford in Steven Shafer's laboratory 
 
 ---
 
-**L. Radu-Radulescu** — research collaborator, Stanford University (Shafer laboratory) `[verify: exact name form — publications use "Radu-Radulescu L" (2003) and "Radulescu L" (2004)]`
+**L. Radu-Radulescu** — research collaborator, Stanford University (Shafer laboratory)
 
 L. Radu-Radulescu was a collaborator in Steven L. Shafer's Stanford group who contributed to its modeling of opioid- and hypnotic-induced ventilatory depression and drug interaction. The name appears in the Bouillon et al. studies characterizing the ventilatory-depressant potency of remifentanil in the non–steady state and, in the interaction series, the pharmacodynamic interaction between propofol and remifentanil. These papers used non-steady-state respiratory data and response-surface methods to quantify how opioids and hypnotics combine to depress ventilation and produce hypnosis. The documented contribution is as a co-author on these interaction/ventilation modeling papers; the independent publication record under this name is limited, so the entry is scoped accordingly.
 
