@@ -1164,7 +1164,17 @@ app_ui <- function() {
                   tags$div(
                     class = "authors-panel",
                     includeMarkdown(
-                      system.file("extdata", "pk-author-summaries.md", package = "stanpumpRHelp")
+                      # Resolve from the installed package (dev/load_all) or, when
+                      # shinyapps.io auto-sources R/ without installing the package,
+                      # fall back to the bundled relative path.
+                      local({
+                        p <- system.file(
+                          "extdata", "pk-author-summaries.md",
+                          package = "stanpumpRHelp"
+                        )
+                        if (!nzchar(p)) p <- "inst/extdata/pk-author-summaries.md"
+                        p
+                      })
                     )
                   )
                 ) # fluidRow
