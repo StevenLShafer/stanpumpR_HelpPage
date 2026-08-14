@@ -1,3 +1,17 @@
+## Aspect Medical Systems (industry, United States)
+
+**Nassib G. Chamoun** — engineer; founder of Aspect Medical Systems and primary inventor of the Bispectral Index (BIS)
+
+Nassib Chamoun trained as an electrical and computer engineer, earning a BS from Northeastern University and an MS from Boston University, and worked as a fellow in cardiovascular physiology at the Lown Cardiovascular Laboratory at the Harvard School of Public Health before founding Aspect Medical Systems in 1987 in Newton, Massachusetts. He is the primary inventor of the Bispectral Index (BIS), a processed-EEG variable built on bispectral — that is, higher-order spectral — analysis, which quantifies the phase coupling among EEG frequency components in addition to the power information used by conventional spectral descriptors. Chamoun and John Sigl laid out the methodological basis of that approach in 1994. The FDA cleared BIS in 1996 as a measure of the effects of anesthetics and sedatives on the brain, and a further clearance in 2003 addressed its use in guiding anesthetic administration to reduce awareness with recall. Under Chamoun as president and chief executive, Aspect grew into a publicly traded company and BIS became the most widely used depth-of-anesthesia monitor.
+
+The contribution that matters most for pharmacodynamic modeling is that BIS supplied a continuous, bounded scalar measure of hypnotic drug effect that could be linked directly to modeled effect-site concentration. Chamoun was a co-author of the 1997 study — led by Valérie Billard with Pedro Gambús, Donald Stanski, and Steven Shafer of the Stanford/Palo Alto group — that compared spectral edge frequency, relative delta power, and BIS as EEG measures of alfentanil, propofol, and midazolam effect. Relating each descriptor to estimated effect-site concentrations, the investigators found that the measures yielded broadly comparable estimates of drug potency and of plasma–effect-site equilibration for the hypnotics, and concluded that bispectral analysis can serve as a measure of the EEG effects of anesthetic drugs. That validation, together with volunteer studies such as those of Peter Glass and colleagues, helped establish BIS as a standard pharmacodynamic endpoint for hypnotics — it is the effect measure underlying widely used propofol PK/PD models, including the general-purpose Eleveld model applied in target-controlled infusion.
+
+Chamoun's work on risk prediction from administrative data produced the Risk Stratification Index, published with Daniel Sessler and colleagues in 2010. After Covidien acquired Aspect Medical Systems in 2009 he served as vice president for technology, research, and clinical development, and he subsequently founded the Health Data Analytics Institute, where he is president and chief executive officer.
+
+*Key references:* Sigl JC, Chamoun NG. An introduction to bispectral analysis for the electroencephalogram. J Clin Monit. 1994;10(6):392–404. • Billard V, Gambus PL, Chamoun N, Stanski DR, Shafer SL. A comparison of spectral edge, delta power, and bispectral index as EEG measures of alfentanil, propofol, and midazolam drug effect. Clin Pharmacol Ther. 1997;61(1):45–58.
+
+---
+
 ## Bonn & Erlangen (Germany)
 
 **Jürgen Schüttler** — anesthesiologist; propofol and opioid pharmacokinetics/pharmacodynamics, population PK, and closed-loop anesthesia (University of Bonn, then chair at Erlangen)
@@ -28,6 +42,18 @@ This work is widely regarded as a foundational proof of concept for target-contr
 
 ---
 
+**Tong Joo "T.J." Gan** — anesthesiologist and clinical investigator; BIS-guided titration of intravenous anesthesia, antiemetic pharmacology, and enhanced recovery (Duke University, later Stony Brook and MD Anderson)
+
+T.J. Gan rose through the academic ranks at Duke University Medical Center, where he served as vice chair for clinical research and faculty development and collaborated with Peter S. A. Glass on the clinical pharmacology of intravenous anesthesia. He was first author of a multicenter trial that demonstrated the clinical value of titrating a hypnotic to a processed-EEG measure of drug effect. In 302 patients at four institutions anesthetized with propofol, alfentanil, and nitrous oxide, adjusting the propofol infusion to a target bispectral index of 45–60 — rather than to standard clinical signs alone — reduced propofol administration, shortened time to extubation, and left more patients oriented on arrival in the recovery room and eligible for earlier discharge. Carl E. Rosow and Peter Sebel, who appear elsewhere in this panel, were among the co-authors. The trial is a direct clinical demonstration of the premise behind concentration-targeted dosing: that hypnotic delivery is best steered by a measure of effect rather than by a fixed weight-based dose.
+
+Gan's Duke work also produced a concentration–effect result obtained with the target-controlled machinery this program simulates. Using a computer-assisted continuous infusion device to hold propofol at target plasma concentrations of 100, 200, 400, and 800 ng/mL in patients already nauseated or vomiting in the recovery room, he and Glass, with Ginsberg and colleagues, identified a median plasma concentration of about 343 ng/mL associated with an antiemetic response, and translated it into practical dosing — roughly a 10 mg bolus followed by an infusion near 10 µg·kg⁻¹·min⁻¹. The study was small and open-label, but it illustrates how a targeted concentration, rather than a bolus dose, can be the clinically meaningful quantity.
+
+He subsequently chaired the Department of Anesthesiology at Stony Brook University's Renaissance School of Medicine from 2014 to 2022, and then became division head of Anesthesiology, Critical Care and Pain Medicine at the University of Texas MD Anderson Cancer Center. Gan is the lead author of successive international consensus guidelines on postoperative nausea and vomiting, including the fourth guidelines in 2020 and the executive summary of the fifth in 2025; these define the risk-stratification and multimodal prophylaxis framework in routine perioperative use. Much of his later work concerns enhanced recovery after surgery (ERAS) and perioperative outcomes.
+
+*Key references:* Gan TJ, Glass PS, Windsor A, Payne F, Rosow C, Sebel P, et al. Bispectral index monitoring allows faster emergence and improved recovery from propofol, alfentanil, and nitrous oxide anesthesia. Anesthesiology. 1997;87(4):808–815. • Gan TJ, Belani KG, Bergese S, et al. Fourth consensus guidelines for the management of postoperative nausea and vomiting. Anesth Analg. 2020;131(2):411–448.
+
+---
+
 **Peter S. A. Glass** — anesthesiologist and clinical pharmacologist; leader in target-controlled infusion research (Duke University, later Stony Brook)
 
 Peter Glass is a leading clinical investigator of target-controlled infusion and of the pharmacology of short-acting anesthetic agents. He directed influential first-in-human and validation studies characterizing the pharmacokinetics and pharmacodynamics of the ultra-short-acting opioid remifentanil, and he contributed extensively to the clinical validation of propofol and opioid TCI. His volunteer and surgical studies helped define the concentration–effect relationships that underpin practical target-controlled dosing.
@@ -45,6 +71,18 @@ James Jacobs made foundational engineering contributions to model-driven drug de
 With Michael Hughes and Peter Glass, Jacobs introduced the context-sensitive half-time — the time for drug concentration to fall by 50% after stopping an infusion of a given duration — demonstrating that the traditional elimination half-life poorly predicts recovery after anesthetic infusions and providing a clinically meaningful measure of drug offset.
 
 *Key references:* Jacobs JR. Algorithm for optimal linear model-based control with application to pharmacokinetic model-driven drug delivery. IEEE Trans Biomed Eng. 1990;37(1):107–109. • Hughes MA, Glass PSA, Jacobs JR. Context-sensitive half-time in multicompartment pharmacokinetic models for intravenous anesthetic drugs. Anesthesiology. 1992;76(3):334–341.
+
+---
+
+**Evan D. Kharasch** — anesthesiologist and clinical pharmacologist, Duke University; methadone and anesthetic drug metabolism, pharmacogenetics, and drug interactions
+
+Evan D. Kharasch is the Merel H. Harmel Distinguished Professor of Anesthesiology at Duke University School of Medicine. He previously held faculty appointments at the University of Washington in Seattle and at Washington University in St. Louis, where he was the Russell D. and Mary B. Shelden Professor of Anesthesiology and founding director of the Center for Clinical Pharmacology. He served as Editor-in-Chief of *Anesthesiology* from 2016 until 2023.
+
+Kharasch is the principal authority on the clinical pharmacokinetics of **methadone**, a drug whose long and highly variable half-life makes it one of the hardest opioids to dose rationally. Working with Christine Hoffer, Dale Whittington, and Pamela Sheffels, he used pupillary miosis as a pharmacodynamic measure alongside plasma concentrations to separate the hepatic and intestinal contributions of CYP3A and CYP2B6 to methadone disposition. That work overturned the prevailing assumption that CYP3A4 governs methadone clearance, showing instead that **CYP2B6** is the principal determinant — and that it acts stereoselectively, preferentially metabolizing the S-enantiomer while the active R-enantiomer accumulates. He extended this to the clinical consequences: CYP2B6 genetic variants and inducers or inhibitors (including antiretrovirals) shift methadone clearance severalfold, which explains much of the interindividual variability in methadone effect and a substantial share of its disproportionate role in opioid-related deaths. Because a compartmental simulation is only as good as its clearance estimate and the covariates that modify it, this body of work supplies the mechanistic explanation for why methadone parameters vary so widely between patients.
+
+His earlier research established the enzymatic basis of volatile anesthetic biotransformation. With Kenneth Thummel he identified cytochrome P450 2E1 as the predominant human hepatic enzyme catalyzing oxidative defluorination of sevoflurane, isoflurane, and methoxyflurane — the reaction that liberates inorganic fluoride and had long been implicated in methoxyflurane nephrotoxicity. He extended this to renal metabolism and to the fate of compound A, the sevoflurane degradation product formed in carbon dioxide absorbents, characterizing its glutathione- and β-lyase-dependent bioactivation and arguing, from the species differences in that pathway, that the proximal tubular injury seen in rats does not translate to patients — a position he has defended in a contested literature. Parallel work identified the P450 isoforms responsible for ketamine N-demethylation to norketamine and the effect of CYP2B6 variants on stereoselective ketamine metabolism.
+
+*Key references:* Kharasch ED, Thummel KE. Identification of cytochrome P450 2E1 as the predominant enzyme catalyzing human liver microsomal defluorination of sevoflurane, isoflurane, and methoxyflurane. Anesthesiology. 1993;79(4):795–807. • Kharasch ED, Hoffer C, Whittington D, Sheffels P. Role of hepatic and intestinal cytochrome P450 3A and 2B6 in the metabolism, disposition, and miotic effects of methadone. Clin Pharmacol Ther. 2004;76(3):250–269.
 
 ---
 
@@ -75,6 +113,40 @@ Carl Hug was a leading academic authority on the clinical pharmacology of the sy
 Among his most cited work, the study with Ausems, Stanski, and Burm defined the plasma alfentanil concentrations required to blunt responses to specific surgical stimuli (intubation, incision, closure) during nitrous oxide anesthesia — data that directly informed rational opioid infusion regimens and TCI targets. Hug also held major leadership roles, serving as president of the American Board of Anesthesiology (1992–1993) and of the Foundation for Anesthesia Education and Research (1998–2001). Carl Hug passed away in 2022.
 
 *Key reference:* Ausems ME, Hug CC Jr, Stanski DR, Burm AGL. Plasma concentrations of alfentanil required to supplement nitrous oxide anesthesia for general surgery. Anesthesiology. 1986;65(4):362–373.
+
+---
+
+**Peter S. Sebel** — anesthesiologist, Emory University School of Medicine; opioid pharmacokinetics, EEG and bispectral index measures of anesthetic drug effect, and intraoperative awareness
+
+Sebel took his qualifying medical degree in the United Kingdom (King's College Hospital Medical School, University of London) and subsequently earned a doctorate for research in anesthetic pharmacology. His early work was conducted with James G. Bovill on the clinical pharmacology of the synthetic opioids in cardiac anesthesia. Their 1980 study of high-dose fentanyl was an early pharmacokinetic description of the drug at anesthetic doses, characterizing the rapid initial distribution and prolonged terminal phase and documenting the abrupt fall in plasma concentration produced by hemodilution on cardiopulmonary bypass. Bovill and Sebel then joined those kinetics to a quantitative measure of drug effect, using the processed electroencephalogram to track opioid action in high-dose fentanyl anesthesia and in high-dose alfentanil anesthesia, where the EEG changes were explicitly correlated with measured plasma concentrations. This concentration–EEG work belongs to the body of research that established the EEG as a continuous, graded pharmacodynamic endpoint for intravenous anesthetics.
+
+At Emory, Sebel became a central figure in the development and validation of the bispectral index. He was first author of the 1997 multicenter study of bispectral EEG analysis for monitoring anesthetic effect, a co-author with Peter S. A. Glass, Carl E. Rosow, and colleagues on the companion volunteer study relating BIS to sedation and memory across propofol, midazolam, isoflurane, and alfentanil, and a co-author with Tong Joo Gan and Glass on the BIS Utility Study Group trial showing faster emergence and improved recovery when anesthetic delivery was titrated to BIS. Taken together, these studies treated the index as a drug-effect measure that could be related to concentration and titrated against it, rather than merely a monitor display.
+
+Sebel later led one of the largest prospective American investigations of intraoperative awareness. The 2004 multicenter United States study reported data from 19,575 patients across seven academic centers with structured postoperative interviews, and found an incidence of definite awareness of about 0.13% — a benchmark figure that framed subsequent debate over whether EEG-based depth-of-anesthesia monitoring reduces awareness.
+
+*Key references:* Bovill JG, Sebel PS. Pharmacokinetics of high-dose fentanyl. A study in patients undergoing cardiac surgery. Br J Anaesth. 1980;52(8):795–801. • Sebel PS, Bowdle TA, Ghoneim MM, Rampil IJ, Padilla RE, Gan TJ, et al. The incidence of awareness during anesthesia: a multicenter United States study. Anesth Analg. 2004;99(3):833–839.
+
+---
+
+## Food and Drug Administration (FDA)
+
+**Carl C. Peck** — physician and clinical pharmacologist; first Director of the FDA Center for Drug Evaluation and Research (CDER), 1987–1994 `[verify: 1993 vs 1994]`; founder of the Center for Drug Development Science
+
+Carl Peck is among the most influential advocates for quantitative, model-based drug development and for embedding pharmacokinetic/pharmacodynamic (PK/PD) and exposure-response reasoning into regulatory decision-making. Trained in internal medicine and clinical pharmacology, he directed the Division of Clinical Pharmacology at the Uniformed Services University of the Health Sciences (1980–1987) before becoming the first Director of CDER when the FDA split its drug and biologics centers in 1987, and he led CDER until 1994.
+
+At and after the FDA, Peck argued that drug development should be a structured, quantitative learning process rather than a series of isolated trials. Working alongside Lewis B. Sheiner and other pioneers of population PK/PD, he helped popularize the "learn and confirm" paradigm and pushed for exposure-response analysis, population modeling, and simulation as tools for dose selection and labeling — the same modeling tradition that underlies target-controlled infusion (TCI) and PK/PD models for anesthetics. In 1994 he founded the Center for Drug Development Science (CDDS) at Georgetown University Medical Center, later affiliated with the UCSF School of Pharmacy. He received the ASCPT Sheiner–Beal Pharmacometrics Award in 2017.
+
+*Key reference:* Peck CC, Barr WH, Benet LZ, et al. Opportunities for integration of pharmacokinetics, pharmacodynamics, and toxicokinetics in rational drug development. Pharm Res. 1992;9(6):826–833.
+
+---
+
+**Daniel A. Spyker** — physician-engineer (PhD, MD) and pharmacokineticist; academic clinical pharmacology (University of Virginia), later FDA medical officer (CDER)
+
+Daniel Spyker combines formal quantitative training with clinical medicine: a PhD in electrical engineering and mathematics and an MD, with board certifications in internal medicine, medical toxicology, and clinical pharmacology `[verify]`. For roughly a decade he served on the internal-medicine faculty in the Division of Clinical Pharmacology at the University of Virginia, where he helped build the Blue Ridge Poison Center and applied compartmental modeling and Bayesian pharmacokinetic methods to dosing and poisoning problems — bridging rigorous PK analysis with clinical toxicology and poison-control practice.
+
+His early research produced quantitative pharmacokinetic studies of antibiotics, including dose-dependent (nonlinear) absorption of amoxicillin across intravenous, oral, and intramuscular routes — work still cited in modern analyses of amoxicillin absorption kinetics. He later served as a Medical Officer in FDA's CDER (Pilot Drug Evaluation Staff), contributing to pharmacokinetics, exposure-response, and dose/exposure evaluation in the review setting, and subsequently worked in the Center for Devices and Radiological Health (CDRH). His career reflects the same emphasis on quantitative clinical pharmacology and model-based analysis that characterizes the PK/PD tradition used in anesthetic simulation.
+
+*Key reference:* Spyker DA, Rugloski RJ, Vann RL, O'Brien WM. Pharmacokinetics of amoxicillin: dose dependence after intravenous, oral, and intramuscular administration. Antimicrob Agents Chemother. 1977;11(1):132–141.
 
 ---
 
@@ -122,6 +194,18 @@ With colleagues and mentees — notably Mark Dershwitz — Rosow carried out cli
 
 ---
 
+## Hôpital Bichat–Claude Bernard (Paris, France)
+
+**Frédérique Servin** — anesthesiologist, Département d'Anesthésie-Réanimation, Hôpital Bichat–Claude Bernard (AP-HP), Paris; propofol pharmacokinetics in special populations and TCI
+
+Frédérique Servin is a French anesthesiologist known for her pharmacokinetic characterization of propofol in special populations and for her work on total intravenous anesthesia (TIVA) and target-controlled infusion (TCI). In an influential 1988 study she and colleagues described the pharmacokinetics and protein binding of propofol in patients with hepatic cirrhosis, showing that overall disposition and protein binding were largely preserved despite liver disease — an early demonstration relevant to dosing propofol in patients with impaired hepatic function. She subsequently examined propofol infusion for maintenance of anesthesia in morbidly obese patients, providing pharmacokinetic and recovery data that became a standard reference for scaling propofol dosing to body weight in obesity and that continues to inform TCI dosing models.
+
+Across her career Servin has contributed to the clinical pharmacology of intravenous anesthetics, TCI implementation, and dosing in challenging populations, and remains an active contributor to the European intravenous-anesthesia and TCI literature.
+
+*Key references:* Servin F, Desmonts JM, Haberer JP, Cockshott ID, Plummer GF, Farinotti R. Pharmacokinetics and protein binding of propofol in patients with cirrhosis. Anesthesiology. 1988;69(6):887–891. • Servin F, Farinotti R, Haberer JP, Desmonts JM. Propofol infusion for maintenance of anesthesia in morbidly obese patients receiving nitrous oxide: a clinical and pharmacokinetic study. Anesthesiology. 1993;78(4):657–665.
+
+---
+
 ## ICI / Zeneca / AstraZeneca (industry, United Kingdom)
 
 **John Baird "Iain" Glen** — veterinarian and pharmacologist; discoverer of propofol (Diprivan) and leader of the Diprifusor TCI program
@@ -140,21 +224,9 @@ David B. Goodale was a scientist in the clinical pharmacology and development or
 
 ---
 
-## Institut Gustave Roussy (France)
-
-**Frédérique Servin** — anesthesiologist; propofol pharmacokinetics in special populations and TCI `[verify: you listed her under Institut Gustave Roussy, but PubMed/AP-HP records place Servin at Hôpital Bichat–Claude Bernard, Paris]`
-
-Frédérique Servin is a French anesthesiologist known for her pharmacokinetic characterization of propofol in special populations and for her work on total intravenous anesthesia (TIVA) and target-controlled infusion (TCI). In an influential 1988 study she and colleagues described the pharmacokinetics and protein binding of propofol in patients with hepatic cirrhosis, showing that overall disposition and protein binding were largely preserved despite liver disease — an early demonstration relevant to dosing propofol in patients with impaired hepatic function. She subsequently examined propofol infusion for maintenance of anesthesia in morbidly obese patients, providing pharmacokinetic and recovery data that became a standard reference for scaling propofol dosing to body weight in obesity and that continues to inform TCI dosing models.
-
-Across her career Servin has contributed to the clinical pharmacology of intravenous anesthetics, TCI implementation, and dosing in challenging populations, and remains an active contributor to the European intravenous-anesthesia and TCI literature.
-
-*Key references:* Servin F, Desmonts JM, Haberer JP, Cockshott ID, Plummer GF, Farinotti R. Pharmacokinetics and protein binding of propofol in patients with cirrhosis. Anesthesiology. 1988;69(6):887–891. • Servin F, Farinotti R, Haberer JP, Desmonts JM. Propofol infusion for maintenance of anesthesia in morbidly obese patients receiving nitrous oxide: a clinical and pharmacokinetic study. Anesthesiology. 1993;78(4):657–665.
-
----
-
 ## Leiden University Medical Center (Netherlands)
 
-**M. E. Ausems** — anesthesiologist; alfentanil pharmacokinetics/pharmacodynamics and model-based ("computer-assisted") infusion `[verify: first name — the help page lists "Max"; publications use initials "M. E. Ausems"]`
+**Max Ausems** — anesthesiologist; alfentanil pharmacokinetics/pharmacodynamics and model-based ("computer-assisted") infusion
 
 Ausems carried out foundational work defining the plasma alfentanil concentrations required to supplement nitrous oxide anesthesia and to suppress responses to specific surgical stimuli, translating opioid effect into concentration targets that could be actively controlled. This research was a direct precursor to modern target-controlled infusion (TCI): it established the concentration–effect relationships that a model-based infusion device must aim for. The doctoral work was based at the University of Leiden `[verify: dates]`.
 
@@ -180,7 +252,31 @@ Burm was the clinical-pharmacology anchor of the Leiden intravenous-anesthesia g
 
 Within the Leiden group, Burm was a recurring co-author on the propofol–opioid interaction and TCI studies led by Vuyk and Bovill, contributing pharmacokinetic modeling and assay expertise. His methods connect to the wider PK/PD community that produced the target-controlled infusion models used in tools such as STANPUMP.
 
-*Key references:* Burm AG, van der Meer AD, van Kleef JW, Zeijlmans PW, Groen K. Pharmacokinetics of the enantiomers of bupivacaine following intravenous administration of the racemate. Br J Clin Pharmacol. 1994;38(2):125–129. • Burm AGL, van Kleef JW, Vermeulen NPE, Olthof G, Breimer DD, Spierdijk J. Pharmacokinetics of lignocaine and bupivacaine in surgical patients following epidural administration: simultaneous investigation of absorption and disposition kinetics using stable isotopes. Clin Pharmacokinet. 1987;13(3):191–203. `[verify: exact pages]`
+*Key references:* Burm AGL, van Kleef JW, Vermeulen NPE, Olthof G, Breimer DD, Spierdijk J. Pharmacokinetics of lignocaine and bupivacaine in surgical patients following epidural administration: simultaneous investigation of absorption and disposition kinetics using stable isotopes. Clin Pharmacokinet. 1987;13(3):191–203. `[verify: exact pages]` • Burm AG, van der Meer AD, van Kleef JW, Zeijlmans PW, Groen K. Pharmacokinetics of the enantiomers of bupivacaine following intravenous administration of the racemate. Br J Clin Pharmacol. 1994;38(2):125–129.
+
+---
+
+**Albert Dahan** — professor of anesthesiology, Leiden University Medical Center; quantitative pharmacology of opioid-induced respiratory depression
+
+Dahan has been professor of anesthesiology at Leiden University Medical Center since 2004, where he founded and long led the institution's anesthesia and pain research unit. His central contribution is the quantitative pharmacology of opioid-induced respiratory depression: rather than treating apnea as a binary adverse event, his group measured the ventilatory response to hypercapnia and hypoxia as a continuous, graded pharmacodynamic endpoint and fitted explicit pharmacokinetic–pharmacodynamic models to it. His 2010 review with Leon Aarts and T. W. Smith on the incidence, reversal, and prevention of opioid-induced respiratory depression remains among the most widely cited syntheses of that literature.
+
+Much of the modeling was done with the Leiden pharmacometrician Erik Olofsen, a collaboration spanning well over a hundred joint publications. With Yassen, Olofsen, and Meindert Danhof, Dahan built mechanism-based models that separate blood–effect-site equilibration from receptor association–dissociation kinetics, showing that the hysteresis between fentanyl concentration and respiratory depression is explained by biophase distribution alone (equilibration half-life about 16 min), whereas buprenorphine's far slower profile (about 75 min) additionally reflects slow mu-opioid receptor binding kinetics — the pharmacological basis for buprenorphine's ceiling effect on ventilation. Related work with Olofsen and Sarton modeled naloxone reversal of morphine- and morphine-6-glucuronide-induced respiratory depression, and population PK/PD analyses with Sigtermans characterized the analgesic and cardiovascular effects of S(+)-ketamine.
+
+Dahan worked alongside the Leiden intravenous-anesthesia group of Jaap Vuyk, Frank Engbers, and Anton Burm. With Engbers he wrote a pointed assessment of target-controlled infusion after two decades of clinical use, cataloguing the anomalies that arise when open TCI systems offer competing pharmacokinetic models for the same drug, when anthropometric covariate relationships are extrapolated beyond the populations from which they were derived, and when regulatory requirements for drug–model pairings remain unsettled — cautions that apply directly to anyone selecting a model for simulation or infusion control.
+
+*Key references:* Dahan A, Aarts L, Smith TW. Incidence, reversal, and prevention of opioid-induced respiratory depression. Anesthesiology. 2010;112(1):226–238. • Engbers FHM, Dahan A. Anomalies in target-controlled infusion: an analysis after 20 years of clinical use. Anaesthesia. 2018;73(5):619–630.
+
+---
+
+**Meindert Danhof** — professor emeritus of pharmacology, Leiden Academic Centre for Drug Research `[verify: you wrote "Meinhart Danhoff"; the published name is "Meindert Danhof"]`
+
+Danhof built his career at Leiden University, where he took his doctorate under Douwe Breimer, trained as a postdoctoral fellow with Gerhard Levy at Buffalo, held the chair of pharmacology in both the Faculty of Science and the Faculty of Medicine, and served as scientific director of the Leiden Academic Centre for Drug Research (LACDR) from 2005–2013 before retiring in 2017. He is the principal architect of *mechanism-based* pharmacokinetic–pharmacodynamic modeling: the program of replacing empirical concentration–effect curves with models whose terms correspond to identifiable biological steps — distribution to the biophase, target binding and activation, transduction, and homeostatic feedback. Its central methodological claim, set out in his 2007 review, is that such models separate *drug-specific* parameters (receptor affinity, intrinsic efficacy) from *system-specific* parameters (receptor density, transduction capacity, homeostatic set points). That separation is what allows a pharmacodynamic model to be carried across drugs acting on the same system, and across species and patient populations for the same drug.
+
+The experimental foundation of this work was the use of the EEG as a continuous, graded measure of central drug effect, which supplies the dense effect-versus-time data that hysteresis-based estimation of effect-site equilibration requires. Danhof's group applied it systematically to benzodiazepines and to opioids, relating EEG response to concentration through effect-compartment and receptor-binding models and estimating biophase equilibration rates. The approach connects directly to anesthesia: with Donald Stanski and William Ebling he characterized the EEG pharmacodynamics of thiopental, and with Cornelis Bol, Stanski, and Jan Willem Mandema the hypnotic, EEG, cardiovascular, and ventilatory responses to dexmedetomidine. He was the senior author on the Leiden studies of Mandema — also listed in this panel — including the midazolam and alpha-hydroxymidazolam work that separated the contributions of a parent drug and its active metabolite to a single measured CNS effect.
+
+Danhof's later work extended these ideas toward systems pharmacology and physiology-based pharmacodynamics, and in 2007 he founded the TI Pharma mechanism-based PK/PD modeling platform to assemble a shared model library for drug discovery and development. He received the Høst Madsen Medal, the highest scientific award of the International Pharmaceutical Federation, in 2019.
+
+*Key references:* Mandema JW, Tuk B, van Steveninck AL, Breimer DD, Cohen AF, Danhof M. Pharmacokinetic-pharmacodynamic modeling of the central nervous system effects of midazolam and its main metabolite alpha-hydroxymidazolam in healthy volunteers. Clin Pharmacol Ther. 1992;51(6):715–728. • Danhof M, de Jongh J, De Lange EC, Della Pasqua O, Ploeger BA, Voskuyl RA. Mechanism-based pharmacokinetic-pharmacodynamic modeling: biophase distribution, receptor theory, and dynamical systems analysis. Annu Rev Pharmacol Toxicol. 2007;47:357–400.
 
 ---
 
@@ -191,6 +287,18 @@ Engbers is a clinician-implementer of target-controlled infusion, focused on mak
 Engbers has also been central to TCI education and simulation, associated with teaching/driver software such as RugLoop and TivaTrainer that let clinicians visualize plasma and effect-site concentrations `[verify: exact software roles]`. His clinical-implementation perspective links the Leiden group to the broader TCI community and to the ongoing standardization of TCI models.
 
 *Key reference:* Engbers FHM, Dahan A. Anomalies in target-controlled infusion: an analysis after 20 years of clinical use. Anaesthesia. 2018;73(5):619–630. `[verify: full co-author list]`
+
+---
+
+**Erik Olofsen** — mathematical modeler, Department of Anesthesiology, Leiden University Medical Center
+
+Erik Olofsen is the quantitative analyst behind much of the pharmacokinetic–pharmacodynamic output of the Leiden anesthesiology group. A mathematical modeler rather than a clinician, he has been the modeling half of a decades-long partnership with Albert Dahan, and he supplied the analysis for the earlier Leiden studies led by Jaap Vuyk with Anton Burm and James Bovill. He is a co-author of the 1997 study that defined the optimal EC50–EC95 propofol–opioid concentration pairs assuring adequate anesthesia with a rapid return of consciousness, and of the later mixed-effects analysis with Martijn Mertens showing that alfentanil alters propofol pharmacokinetics — evidence that anesthetic interaction is pharmacokinetic as well as pharmacodynamic.
+
+With Dahan he characterized the dynamic relationship between end-tidal sevoflurane and isoflurane concentrations and two EEG-derived measures of drug effect, the bispectral index and the 95% spectral edge frequency. Fitting an effect-compartment model, they estimated effect-site equilibration half-lives (t½ke0) of a few minutes for both agents — the precise value depending on which EEG measure is used — and found isoflurane the more potent of the two. The paper remains a standard reference for applying the ke0 formalism to volatile anesthetics and for the hysteresis-collapse approach to EEG measures of anesthetic depth.
+
+Olofsen's largest body of work concerns opioid-induced respiratory depression and the control of breathing, where he has built the PK/PD models underpinning Leiden's experimental studies — including population analyses of tolerance to respiratory depression in chronic high-dose opioid users. Ketamine and esketamine PK/PD form a second sustained theme, much of it with Marieke Niesters and Monique van Velzen. He also writes on methodology itself, including a widely used review with Dahan on population pharmacokinetic/pharmacodynamic modeling of anesthetics.
+
+*Key references:* Vuyk J, Mertens MJ, Olofsen E, Burm AG, Bovill JG. Propofol anesthesia and rational opioid selection: determination of optimal EC50–EC95 propofol-opioid concentrations that assure adequate anesthesia and a rapid return of consciousness. Anesthesiology. 1997;87(6):1549–1562. • Olofsen E, Dahan A. The dynamic relationship between end-tidal sevoflurane and isoflurane concentrations and bispectral index and spectral edge frequency of the electroencephalogram. Anesthesiology. 1999;90(5):1345–1353.
 
 ---
 
@@ -246,6 +354,30 @@ Corina Andresen was a collaborator associated with Steven L. Shafer's Stanford g
 
 ---
 
+**Martin S. Angst** — anesthesiologist and clinical pharmacologist, Stanford University; opioid-induced hyperalgesia and human experimental-pain pharmacodynamics
+
+Martin S. Angst is Professor of Anesthesiology, Perioperative and Pain Medicine at Stanford University, where he also serves as Vice Chair for Strategy and Initiatives. His research program is built on human experimental-pain models — quantitative sensory testing in healthy volunteers combined with controlled intravenous opioid administration — used to characterize opioid pharmacodynamics with the same rigor usually reserved for pharmacokinetics. With J. David Clark he wrote the qualitative systematic review that consolidated the evidence for opioid-induced hyperalgesia and made the phenomenon a mainstream clinical concern in anesthesiology and pain medicine.
+
+His experimental work established that hyperalgesia can emerge rapidly after opioid exposure: with Wolfgang Koppert, Martin Schmelz, and Clark, he showed that a short remifentanil infusion in humans produces an expansion of mechanical hyperalgesia around an experimentally sensitized skin area during the withdrawal period, an effect the authors attributed to NMDA-receptor-dependent sensitization. He pursued the relationship to tolerance directly with Steven L. Shafer, J. David Clark, and David R. Drover in a placebo-controlled study of a three-hour remifentanil infusion, which found no detectable acute tolerance to analgesic, respiratory-depressant, or sedative opioid effects — an important negative result for how acute opioid effect is modeled. With Laura C. Lazzeroni, Gary E. Swan, and colleagues he then applied a monozygotic/dizygotic twin paradigm to quantify the heritability of pain sensitivity, opioid analgesia, and the aversive and reinforcing effects of opioids.
+
+Earlier in his career Angst worked within the Stanford pharmacokinetic–pharmacodynamic group led by Donald R. Stanski, contributing to studies of opioid disposition and effect in which David R. Drover and Davide Verotta carried out population pharmacokinetic analysis in NONMEM alongside concentration–effect measurement, including work on immediate- and extended-release oral hydromorphone. More recently his focus has shifted to perioperative recovery and resilience, using surgery as a controlled injury model; with Brice Gaudillière and Garry P. Nolan he co-authored the single-cell mass cytometry study showing that immune signatures measured shortly after surgery correlate with the subsequent clinical recovery trajectory.
+
+*Key references:* Angst MS, Koppert W, Pahl I, Clark DJ, Schmelz M. Short-term infusion of the mu-opioid agonist remifentanil in humans causes hyperalgesia during withdrawal. Pain. 2003;106(1–2):49–57. • Angst MS, Clark JD. Opioid-induced hyperalgesia: a qualitative systematic review. Anesthesiology. 2006;104(3):570–587.
+
+---
+
+**Juliana Barr** — anesthesiologist and intensivist; research fellow with Steven L. Shafer at Stanford; PK/PD-based sedation in the intensive care unit
+
+Juliana Barr is Professor of Anesthesiology, Perioperative and Pain Medicine, Emerita, at Stanford University School of Medicine, and has served as a staff anesthesiologist and intensivist at the VA Palo Alto Health Care System since 1992. She is board certified in internal medicine, anesthesiology, and critical care medicine, and completed a postdoctoral research fellowship in clinical pharmacology at Stanford before joining the faculty. At the Palo Alto VA she co-founded the first intensivist-led ICU team in 1993 and later established a VA ICU nurse practitioner program.
+
+Barr's laboratory work applied integrated pharmacokinetic–pharmacodynamic modeling to sedative dosing in critically ill adults — the same modeling approach that underlies this program. With Talmage D. Egan, Katharine Zomorodi, Pedro L. Gambús and Steven L. Shafer she characterized propofol pharmacokinetics and pharmacodynamics in ICU patients and converted the combined model into practical infusion regimens targeting defined levels of sedation. In a companion trial published in the same issue of *Anesthesiology*, she compared intravenous lorazepam with midazolam for ICU sedation using a pharmacologic model. She was also a co-author of the midazolam target-controlled infusion study in patients recovering from coronary artery bypass grafting, contributing to the population pharmacokinetic analysis; the paired pharmacodynamic analysis of that dataset was reported by Jacques Somma and colleagues.
+
+Barr subsequently led the Society of Critical Care Medicine's clinical practice guidelines for the management of pain, agitation and delirium (PAD) in adult ICU patients, serving as first author of the 2013 guidelines, which reshaped sedation and analgesia practice by favoring analgesia-first, lighter and more carefully titrated sedation with routine delirium monitoring. She is a founding member of the society's ICU Liberation Campaign and contributed to the development of the ABCDEF bundle.
+
+*Key references:* Barr J, Egan TD, Sandoval NF, Zomorodi K, Cohane C, Gambus PL, et al. Propofol dosing regimens for ICU sedation based upon an integrated pharmacokinetic-pharmacodynamic model. Anesthesiology. 2001;95(2):324–333. • Barr J, Fraser GL, Puntillo K, Ely EW, Gélinas C, Dasta JF, et al. Clinical practice guidelines for the management of pain, agitation, and delirium in adult patients in the intensive care unit. Crit Care Med. 2013;41(1):263–306.
+
+---
+
 **Valérie Billard** — anesthesiologist; research fellow with Steven L. Shafer at Stanford (later Institut Gustave Roussy, Villejuif, France)
 
 Valérie Billard is a French anesthesiologist whose foundational pharmacodynamic work was done as a research fellow in Steven L. Shafer's laboratory at Stanford, in close collaboration with Donald R. Stanski's group. There she investigated quantitative electroencephalographic (EEG) measures of anesthetic drug effect, comparing processed-EEG descriptors as pharmacodynamic endpoints for intravenous anesthetics and opioids. Her best-known study, co-authored with Pedro L. Gambús, systematically compared spectral edge frequency, delta power, and the bispectral index (BIS) as measures of the drug effect of alfentanil, propofol, and midazolam, characterizing the concentration–effect relationship and the temporal (ke0) delay between plasma concentration and EEG effect for each agent. This work helped establish BIS and related EEG measures as pharmacodynamic tools for propofol and opioid anesthesia and informed subsequent modeling of hypnotic–opioid interaction.
@@ -262,7 +394,7 @@ Thomas Bouillon is an anesthesiologist and clinical pharmacologist whose work ce
 
 Bouillon also made foundational contributions to modeling opioid-induced ventilatory depression, applying indirect-effect (non–steady-state) models to arterial and end-tidal CO2 during and after remifentanil administration — quantifying the potency and time course of respiratory depression and underscoring the hazard of bolus dosing of fast-onset opioids in spontaneously breathing patients. After his Stanford fellowship he worked in Switzerland (University of Bern / Inselspital, with Thomas Schnider's group) and subsequently moved into the pharmaceutical industry as a pharmacometrician (including at Novartis, Basel). `[verify: birth year; exact Stanford and Bern dates]`
 
-*Key references:* Bouillon TW, Bruhn J, Radulescu L, Andresen C, Shafer TJ, Cohane C, Shafer SL. Pharmacodynamic interaction between propofol and remifentanil regarding hypnosis, tolerance of laryngoscopy, bispectral index, and electroencephalographic approximate entropy. Anesthesiology. 2004;100(6):1353–1372. • Bouillon T, Bruhn J, Radu-Radulescu L, Andresen C, Cohane C, Shafer SL. A model of the ventilatory depressant potency of remifentanil in the non–steady state. Anesthesiology. 2003;99(4):779–787.
+*Key references:* Bouillon T, Bruhn J, Radu-Radulescu L, Andresen C, Cohane C, Shafer SL. A model of the ventilatory depressant potency of remifentanil in the non–steady state. Anesthesiology. 2003;99(4):779–787. • Bouillon TW, Bruhn J, Radulescu L, Andresen C, Shafer TJ, Cohane C, Shafer SL. Pharmacodynamic interaction between propofol and remifentanil regarding hypnosis, tolerance of laryngoscopy, bispectral index, and electroencephalographic approximate entropy. Anesthesiology. 2004;100(6):1353–1372.
 
 ---
 
@@ -273,6 +405,18 @@ Michael Bührer worked in Donald Stanski's anesthesia clinical-pharmacology grou
 Using arterial plasma concentrations linked to EEG effect through an effect-compartment (ke0) model, Bührer and colleagues quantified each drug's intrinsic steady-state potency and the half-time of blood–brain equilibration, finding midazolam roughly five-fold more potent than diazepam and with slower CNS equilibration (about 4.8 vs. 1.6 minutes). This careful separation of pharmacokinetics from pharmacodynamics via the effect site, using the EEG as the effect measure, is a foundational example of the effect-site/EEG PD framework that underpins TCI and stanpumpR's effect-site simulation.
 
 *Key reference:* Bührer M, Maitre PO, Crevoisier C, Stanski DR. Electroencephalographic effects of benzodiazepines. II. Pharmacodynamic modeling of the electroencephalographic effects of midazolam and diazepam. Clin Pharmacol Ther. 1990;48(5):555–567.
+
+---
+
+**David R. Drover** — anesthesiologist and clinical pharmacologist, Stanford University; population PK/PD of intravenous anesthetics and processed-EEG measures of drug effect
+
+David R. Drover is Professor of Anesthesiology, Perioperative and Pain Medicine, Emeritus, at Stanford University School of Medicine. He trained in medicine and anesthesia at Dalhousie University and then came to Stanford, where he has spent his academic career. His research has centered on the pharmacokinetics and pharmacodynamics of intravenous anesthetics, opioids, and sedatives, with a recurring emphasis on population modeling of concentration–effect relationships in groups that are difficult to study, including neonates, infants, children, and obstetric patients.
+
+With Harry J. M. Lemmens, Drover characterized the population pharmacokinetics and pharmacodynamics of remifentanil during nitrous oxide anesthesia for abdominal surgery. Stable blood concentrations were established with a computer-controlled infusion pump — the research forerunner of target-controlled infusion — and the concentration–response data were analyzed with NONMEM. The study described a two-compartment disposition model incorporating lean body mass as a size covariate, and estimated the blood concentration associated with a 50% probability of adequate anesthesia (Cb50) as 4.1 ng/mL in men and 7.5 ng/mL in women, a difference the authors cautioned might reflect the mix of surgical procedures rather than an intrinsic pharmacodynamic sex effect.
+
+Drover has also worked extensively on processed-EEG measures of drug effect. He led the multicenter randomized trial showing that titrating propofol to the Patient State Index — a quantitative EEG-derived index of hypnotic state — shortened emergence and recovery and modestly reduced propofol delivery without increasing unwanted events or reported awareness, and he has since contributed to comparative evaluations of the Patient State Index, Bispectral Index, and entropy monitors. In pediatric and volunteer clinical pharmacology he has collaborated with Gregory B. Hammer and with Steven L. Shafer, including work on the propofol EC50 during endoscopy in children and on the pharmacodynamic interaction of propofol and remifentanil in children, and with Martin S. Angst and Shafer on the analgesic, sedative, and respiratory pharmacodynamics of opioids in human volunteers.
+
+*Key references:* Drover DR, Lemmens HJ. Population pharmacodynamics and pharmacokinetics of remifentanil as a supplement to nitrous oxide anesthesia for elective abdominal surgery. Anesthesiology. 1998;89(4):869–877. • Drover DR, Lemmens HJ, Pierce ET, et al. Patient State Index: titration of delivery and recovery from propofol, alfentanil, and nitrous oxide anesthesia. Anesthesiology. 2002;97(1):82–89.
 
 ---
 
@@ -306,6 +450,18 @@ Gregg also contributed to the anesthetic drug-interaction literature as a co-aut
 
 ---
 
+**Jan F. A. Hendrickx** — anesthesiologist; research fellow with Steven L. Shafer at Stanford; inhaled-anesthetic uptake and kinetics (OLV Hospital, Aalst, Belgium)
+
+Jan F. A. Hendrickx is a Belgian anesthesiologist based at the Department of Anesthesiology and Intensive Care of OLV Hospital in Aalst, Belgium. He holds academic appointments as Professor of Anesthesiology and Perioperative Medicine at Ghent University and as Professor in the Department of Anesthesiology at UZ Leuven and the Department of Cardiovascular Sciences at KU Leuven. He is an alumnus of the anesthesiology departments of Pittsburgh and of Stanford, where he worked with Steven L. Shafer on pharmacokinetic and pharmacodynamic modeling.
+
+His principal research program is the quantitative side of inhaled anesthesia: the uptake, distribution and kinetics of volatile agents, and the low-flow and closed-circuit techniques that follow from them. This is the inhaled-agent counterpart to the intravenous kinetics stanpumpR simulates — the same accounting of dose, uptake and distribution, but with the anesthetic delivered through a breathing circuit rather than a vein. Working largely with Andre M. De Wolf, he has measured desflurane and isoflurane uptake during closed-circuit anesthesia, studied agent uptake during liver resection and transplantation, tested whether large-volume nitrous oxide uptake alone explains the second gas effect, compared agent consumption under automated closed-circuit versus low-flow delivery, and developed models that compute anesthetic agent consumption from inspired and end-expired concentrations, minute ventilation, fresh gas flow and dead space ventilation. More recent work applies the same consumption arithmetic to the greenhouse gas burden of volatile anesthetics across the fresh gas flow range.
+
+Hendrickx also contributed directly to the anesthetic interaction literature represented elsewhere in this panel. With Edmund I. "Ted" Eger II, James M. Sonner and Steven L. Shafer — Eger and Shafer both appear as separate entries here — he reviewed whether anesthetic combinations producing hypnosis and immobility act synergistically or merely additively, reasoning that additivity implies a shared site of action while synergy implies distinct ones. That review appeared alongside a companion theoretical analysis by Shafer, Hendrickx, Pamela Flood, Sonner and Eger, and the pair together form a conceptual bridge to the response-surface interaction models of Minto, Short, Vuyk, Bouillon and Kern that underlie the propofol–opioid interaction display in this application.
+
+*Key references:* Hendrickx JF, Soetens M, Van der Donck A, Meeuwis H, Smolders F, De Wolf AM. Uptake of desflurane and isoflurane during closed-circuit anesthesia with spontaneous and controlled mechanical ventilation. Anesth Analg. 1997;84(2):413–418. • Hendrickx JF, Eger EI 2nd, Sonner JM, Shafer SL. Is synergy the rule? A review of anesthetic interactions producing hypnosis and immobility. Anesth Analg. 2008;107(2):494–506.
+
+---
+
 **Chuanpu Hu** — pharmacometrician/statistician; PhD Stanford University; postdoctoral fellow, Stanford Department of Anesthesia (later industry pharmacometrics)
 
 Chuanpu Hu earned his PhD at Stanford and worked with Steven L. Shafer's group in the Stanford Department of Anesthesia (postdoctoral fellowship in clinical pharmacology, mid-1990s) on the statistical and control-theoretic methodology of PK/PD modeling for anesthetic drugs. With Shafer and William S. Lovejoy he analyzed control strategies for the three-compartment PK/PD models that describe intravenous anesthetics, comparing algorithmic approaches for driving plasma and effect-site concentrations to target — work directly relevant to the optimization and effect-site targeting logic used in target-controlled infusion.
@@ -325,6 +481,18 @@ Hung is the lead author of the second paper in the Stanford thiopental pharmacod
 He subsequently built his career at Dalhousie University in Halifax, Nova Scotia, Canada, where he became widely known for research and device development in airway management. `[verify: exact fellowship dates and academic titles]`
 
 *Key reference:* Hung OR, Varvel JR, Shafer SL, Stanski DR. Thiopental pharmacodynamics. II. Quantitation of clinical and electroencephalographic depth of anesthesia. Anesthesiology. 1992;77(2):237–244.
+
+---
+
+**Harry J. M. Lemmens** — anesthesiologist and clinical pharmacologist, Stanford University; opioid PK/PD and anesthetic dosing in obesity
+
+Lemmens trained in the Netherlands, taking his medical degree at the University of Utrecht and completing his internship and residency at the University Hospital of Leiden. His early work there, with James Bovill, Anton Burm, and Pim Hennis, characterized the pharmacokinetics and pharmacodynamics of alfentanil, showing that alfentanil pharmacodynamics were essentially unchanged by age while its clearance declined with age in a gender-dependent manner — an early demonstration that age effects on kinetics and on drug sensitivity must be estimated separately before they can be used for dosing. He came to Stanford for an anesthesiology fellowship and remained on the faculty, where he is Professor of Anesthesiology, Perioperative and Pain Medicine. (Stanford records list his given name as Hendrikus; he publishes as Harry J. M. Lemmens.)
+
+At Stanford he joined the opioid pharmacology group of Donald Stanski and Steven Shafer. He was a co-author, with Talmage Egan, Pierre Fiset, and colleagues, of the early volunteer pharmacokinetic study of remifentanil, and of the Minto and Schnider paper that developed the age- and lean-body-mass covariate model for remifentanil pharmacokinetics and pharmacodynamics — the model now implemented in most remifentanil target-controlled infusion devices and simulation programs. With Shafer and Stanski he applied EEG-based pharmacokinetic–pharmacodynamic modeling to the investigational opioid trefentanil, estimating its blood–effect-site equilibration half-time (the t½ke0 underlying effect-site simulation) as roughly 1.2 minutes against 0.6 minutes for alfentanil. He later worked with David Drover and co-investigators on the Patient State Index, an EEG-derived measure of anesthetic drug effect, and wrote a widely cited review of pharmacokinetic–pharmacodynamic relationships for opioids in balanced anesthesia.
+
+Much of his subsequent work addresses anesthetic dosing in obesity and, specifically, which body-size descriptor a dose should be scaled to. With Jay Brodsky and Donald Bernstein he proposed estimating ideal body weight as 22 × height², a formula that falls midway among earlier published estimates and is now in common use. With Jerry Ingrande and Brodsky he showed that the induction dose of propofol in morbidly obese subjects scales with lean body weight rather than total body weight, a finding that underlies current recommendations for dose adjustment in the morbidly obese and for the body-weight descriptors used in dosing calculators and simulators.
+
+*Key references:* Egan TD, Lemmens HJ, Fiset P, Hermann DJ, Muir KT, Stanski DR, et al. The pharmacokinetics of the new short-acting opioid remifentanil (GI87084B) in healthy adult male volunteers. Anesthesiology. 1993;79(5):881–892. • Ingrande J, Brodsky JB, Lemmens HJM. Lean body weight scalar for the anesthetic induction dose of propofol in morbidly obese subjects. Anesth Analg. 2011;113(1):57–62.
 
 ---
 
@@ -378,7 +546,28 @@ Steven Shafer is known for translating anesthetic PK/PD theory into working drug
 
 Shafer's research spans opioid and hypnotic pharmacology, population modeling, and the pharmacokinetic concepts clinicians use to reason about infusion regimens — including context-sensitive decrement times and rational drug selection based on predicted concentration trajectories. He has also been influential in research integrity and publication ethics, including a long tenure as Editor-in-Chief of Anesthesia & Analgesia.
 
-*Key references:* Shafer SL, Gregg KM. Algorithms to rapidly achieve and maintain stable drug concentrations at the site of drug effect with a computer-controlled infusion pump. J Pharmacokinet Biopharm. 1992;20(2):147–169. • Shafer SL, Varvel JR. Pharmacokinetics, pharmacodynamics, and rational opioid selection. Anesthesiology. 1991;74(1):53–63.
+*Author of stanpumpR.*
+
+*Key references:* Shafer SL, Varvel JR. Pharmacokinetics, pharmacodynamics, and rational opioid selection. Anesthesiology. 1991;74(1):53–63. • Shafer SL, Gregg KM. Algorithms to rapidly achieve and maintain stable drug concentrations at the site of drug effect with a computer-controlled infusion pump. J Pharmacokinet Biopharm. 1992;20(2):147–169.
+
+*Selected publications:*
+
+- Shafer SL, Siegel LC, Cooke JE, Scott JC. Testing computer-controlled infusion pumps by simulation. Anesthesiology. 1988;68(2):261–266.
+- Shafer SL, Varvel JR, Aziz N, Scott JC. Pharmacokinetics of fentanyl administered by computer-controlled infusion pump. Anesthesiology. 1990;73(6):1091–1102.
+- Varvel JR, Donoho DL, Shafer SL. Measuring the predictive performance of computer-controlled infusion pumps. J Pharmacokinet Biopharm. 1992;20(1):63–94.
+- Kataria BK, Ved SA, Nicodemus HF, Hoy GR, Lea D, Dubois MY, et al. The pharmacokinetics of propofol in children using three different data analysis approaches. Anesthesiology. 1994;80(1):104–122.
+- Gepts E, Shafer SL, Camu F, Stanski DR, Woestenborghs R, Van Peer A, et al. Linearity of pharmacokinetics and model estimation of sufentanil. Anesthesiology. 1995;83(6):1194–1204.
+- Minto CF, Schnider TW, Egan TD, Youngs E, Lemmens HJ, Gambus PL, et al. Influence of age and gender on the pharmacokinetics and pharmacodynamics of remifentanil. I. Model development. Anesthesiology. 1997;86(1):10–23.
+- Minto CF, Schnider TW, Shafer SL. Pharmacokinetics and pharmacodynamics of remifentanil. II. Model application. Anesthesiology. 1997;86(1):24–33.
+- Billard V, Gambus PL, Chamoun N, Stanski DR, Shafer SL. A comparison of spectral edge, delta power, and bispectral index as EEG measures of alfentanil, propofol, and midazolam drug effect. Clin Pharmacol Ther. 1997;61(1):45–58.
+- Schnider TW, Minto CF, Gambus PL, Andresen C, Goodale DB, Shafer SL, et al. The influence of method of administration and covariates on the pharmacokinetics of propofol in adult volunteers. Anesthesiology. 1998;88(5):1170–1182.
+- Schnider TW, Minto CF, Shafer SL, Gambus PL, Andresen C, Goodale DB, et al. The influence of age on propofol pharmacodynamics. Anesthesiology. 1999;90(6):1502–1516.
+- Minto CF, Schnider TW, Short TG, Gregg KM, Gentilini A, Shafer SL. Response surface model for anesthetic drug interactions. Anesthesiology. 2000;92(6):1603–1616.
+- Pollak PT, Bouillon T, Shafer SL. Population pharmacokinetics of long-term oral amiodarone therapy. Clin Pharmacol Ther. 2000;67(6):642–652.
+- Bruhn J, Bouillon TW, Radulescu L, Hoeft A, Bertaccini E, Shafer SL. Correlation of approximate entropy, bispectral index, and spectral edge frequency 95 (SEF95) with clinical signs of "anesthetic depth" during coadministration of propofol and remifentanil. Anesthesiology. 2003;98(3):621–627.
+- Minto CF, Schnider TW, Gregg KM, Henthorn TK, Shafer SL. Using the time of maximum effect site concentration to combine pharmacokinetics and pharmacodynamics. Anesthesiology. 2003;99(2):324–333.
+- Bouillon TW, Bruhn J, Radulescu L, Andresen C, Shafer TJ, Cohane C, et al. Pharmacodynamic interaction between propofol and remifentanil regarding hypnosis, tolerance of laryngoscopy, bispectral index, and electroencephalographic approximate entropy. Anesthesiology. 2004;100(6):1353–1372.
+- Hendrickx JF, Eger EI 2nd, Sonner JM, Shafer SL. Is synergy the rule? A review of anesthetic interactions producing hypnosis and immobility. Anesth Analg. 2008;107(2):494–506.
 
 ---
 
@@ -448,28 +637,6 @@ Coetzee is known for rigorous clinical evaluation of propofol pharmacokinetic pa
 
 ---
 
-## U.S. Food and Drug Administration (FDA)
-
-**Carl C. Peck** — physician and clinical pharmacologist; first Director of the FDA Center for Drug Evaluation and Research (CDER), 1987–1994 `[verify: 1993 vs 1994]`; founder of the Center for Drug Development Science
-
-Carl Peck is among the most influential advocates for quantitative, model-based drug development and for embedding pharmacokinetic/pharmacodynamic (PK/PD) and exposure-response reasoning into regulatory decision-making. Trained in internal medicine and clinical pharmacology, he directed the Division of Clinical Pharmacology at the Uniformed Services University of the Health Sciences (1980–1987) before becoming the first Director of CDER when the FDA split its drug and biologics centers in 1987, and he led CDER until 1994.
-
-At and after the FDA, Peck argued that drug development should be a structured, quantitative learning process rather than a series of isolated trials. Working alongside Lewis B. Sheiner and other pioneers of population PK/PD, he helped popularize the "learn and confirm" paradigm and pushed for exposure-response analysis, population modeling, and simulation as tools for dose selection and labeling — the same modeling tradition that underlies target-controlled infusion (TCI) and PK/PD models for anesthetics. In 1994 he founded the Center for Drug Development Science (CDDS) at Georgetown University Medical Center, later affiliated with the UCSF School of Pharmacy. He received the ASCPT Sheiner–Beal Pharmacometrics Award in 2017.
-
-*Key reference:* Peck CC, Barr WH, Benet LZ, et al. Opportunities for integration of pharmacokinetics, pharmacodynamics, and toxicokinetics in rational drug development. Pharm Res. 1992;9(6):826–833.
-
----
-
-**Daniel A. Spyker** — physician-engineer (PhD, MD) and pharmacokineticist; academic clinical pharmacology (University of Virginia), later FDA medical officer (CDER)
-
-Daniel Spyker combines formal quantitative training with clinical medicine: a PhD in electrical engineering and mathematics and an MD, with board certifications in internal medicine, medical toxicology, and clinical pharmacology `[verify]`. For roughly a decade he served on the internal-medicine faculty in the Division of Clinical Pharmacology at the University of Virginia, where he helped build the Blue Ridge Poison Center and applied compartmental modeling and Bayesian pharmacokinetic methods to dosing and poisoning problems — bridging rigorous PK analysis with clinical toxicology and poison-control practice.
-
-His early research produced quantitative pharmacokinetic studies of antibiotics, including dose-dependent (nonlinear) absorption of amoxicillin across intravenous, oral, and intramuscular routes — work still cited in modern analyses of amoxicillin absorption kinetics. He later served as a Medical Officer in FDA's CDER (Pilot Drug Evaluation Staff), contributing to pharmacokinetics, exposure-response, and dose/exposure evaluation in the review setting, and subsequently worked in the Center for Devices and Radiological Health (CDRH). His career reflects the same emphasis on quantitative clinical pharmacology and model-based analysis that characterizes the PK/PD tradition used in anesthetic simulation.
-
-*Key reference:* Spyker DA, Rugloski RJ, Vann RL, O'Brien WM. Pharmacokinetics of amoxicillin: dose dependence after intravenous, oral, and intramuscular administration. Antimicrob Agents Chemother. 1977;11(1):132–141.
-
----
-
 ## Universidad Católica & Universidad de Chile (Santiago / Viña del Mar)
 
 **Luis Ignacio Cortínez** — anesthesiologist and pharmacometrician, Pontificia Universidad Católica de Chile; population PK/PD, TCI, and allometric scaling
@@ -516,7 +683,7 @@ Absalom co-authored (with Douglas Eleveld and Struys) the Eleveld "general-purpo
 
 Eleveld, with Michel Struys, Anthony Absalom, and colleagues at Groningen, developed general-purpose ("all-in-one") pharmacokinetic–pharmacodynamic models intended to apply across the entire patient spectrum — from neonates to the elderly, and from underweight to morbidly obese — rather than being restricted to a narrow population. His propofol PK/PD model, built by pooling data from many prior studies and using bispectral index (BIS) as the effect endpoint, and his allometric remifentanil model, using age, weight, and sex as covariates, have been increasingly adopted in modern TCI systems as unified alternatives to the older Marsh, Schnider, and Minto models. These models incorporate effect-site (ke0) parameterization for effect-site–targeted infusion.
 
-*Key references:* Eleveld DJ, Colin P, Absalom AR, Struys MMRF. Pharmacokinetic–pharmacodynamic model for propofol for broad application in anaesthesia and sedation. Br J Anaesth. 2018;120(5):942–959. • Eleveld DJ, Proost JH, Vereecke H, et al. An allometric model of remifentanil pharmacokinetics and pharmacodynamics. Anesthesiology. 2017;126(6):1005–1018.
+*Key references:* Eleveld DJ, Proost JH, Vereecke H, et al. An allometric model of remifentanil pharmacokinetics and pharmacodynamics. Anesthesiology. 2017;126(6):1005–1018. • Eleveld DJ, Colin P, Absalom AR, Struys MMRF. Pharmacokinetic–pharmacodynamic model for propofol for broad application in anaesthesia and sedation. Br J Anaesth. 2018;120(5):942–959.
 
 ---
 
@@ -556,6 +723,18 @@ These principles feed directly into modern anesthetic dosing tools: general-purp
 
 ---
 
+**Timothy G. Short** — anaesthetist, Auckland City Hospital and the University of Auckland; anesthetic drug interactions and depth-of-anaesthesia trials
+
+Timothy Short is a specialist anaesthetist at Auckland City Hospital and honorary professor in the Department of Anaesthesiology at the University of Auckland. His doctoral work was in benzodiazepine pharmacology, and his early clinical pharmacology established the quantitative shape of hypnotic–hypnotic and hypnotic–opioid interaction. In a study of 400 female patients performed while he was at the Chinese University of Hong Kong, Short, Plummer and Chui measured ED50 values for midazolam, propofol and alfentanil given alone and in combination, at endpoints of hypnosis and of anaesthesia. Every two-drug pair was synergistic for the hypnotic endpoint — the observed ED50 fell well below the additive prediction — while the three-drug combination produced less effect than the individual drugs and their pairwise interactions would predict, an early demonstration that interaction among anaesthetics is not a simple sum of isobolograms.
+
+That line of work led directly into response-surface modeling. Short was a co-author of the landmark paper by Minto, Schnider, Short, Gregg, Gentilini and Shafer, which replaced single-endpoint isobolographic description with a continuous surface over the full concentration plane, allowing additivity, synergy and antagonism to be expressed as one parameterized model and combined with pharmacokinetics to predict effect over time. Working with Shafer's group at the Palo Alto VA, he then addressed the practical problem the surfaces created — how to estimate them without impossibly large studies — publishing an efficient trial design for eliciting a PK/PD model-based interaction surface between two intravenous anaesthetics. He later closed the loop to delivery, showing with Hannam, Merry and colleagues that a propofol–remifentanil response surface for bispectral index could drive a pharmacodynamic target-controlled infusion targeting the combined drug effect rather than either drug's concentration.
+
+Short is also known for large randomized trials of depth-of-anaesthesia titration. He was, with Kate Leslie, a principal investigator of the BALANCED anaesthesia study, an international trial that randomized patients aged 60 and over at increased surgical risk to light (BIS 50) or deep (BIS 35) general anaesthesia and found no evidence that light anaesthesia improved one-year survival. He is a past chairman of the executive of the ANZCA Clinical Trials Network and remains active in multicentre perioperative trials.
+
+*Key references:* Short TG, Plummer JL, Chui PT. Hypnotic and anaesthetic interactions between midazolam, propofol and alfentanil. Br J Anaesth. 1992;69(2):162–167. • Minto CF, Schnider TW, Short TG, Gregg KM, Gentilini A, Shafer SL. Response surface model for anesthetic drug interactions. Anesthesiology. 2000;92(6):1603–1616.
+
+---
+
 ## University of California, San Francisco (UCSF)
 
 **Stuart L. Beal** — biostatistician; co-developer of NONMEM and nonlinear mixed-effects (population) pharmacokinetics
@@ -565,6 +744,18 @@ Stuart Beal earned his PhD in biostatistics from UCLA (1973) and spent his caree
 Beal was primarily responsible for the statistical estimation machinery underlying NONMEM, including the first-order (FO) method and, later, the first-order conditional estimation (FOCE) methods that improved accuracy when data are informative about individual parameters. His authorship of the successive NONMEM Users Guides made these estimation algorithms usable across pharmacology and industry, where NONMEM remains a de facto standard. In anesthesia, the population approach he and Sheiner established underpins the covariate-based PK models and TCI parameter sets used to dose intravenous anesthetics and opioids. Stuart Beal passed away in 2006.
 
 *Key references:* Beal SL, Sheiner LB. Estimating population kinetics. Crit Rev Biomed Eng. 1982;8(3):195–222. • Beal SL, Sheiner LB, eds. NONMEM Users Guides. San Francisco: NONMEM Project Group, University of California, San Francisco.
+
+---
+
+**Leslie Z. Benet** — professor of bioengineering and therapeutic sciences, UCSF; clearance theory, noncompartmental analysis, and bioavailability science
+
+Benet is among the most influential figures in modern pharmacokinetics. A UCSF PhD in pharmaceutical chemistry, he joined the School of Pharmacy faculty and served from 1978 to 1998 as the third chair of its Department of Pharmacy, succeeding Sidney Riegelman; during and after his tenure the department was renamed the Department of Biopharmaceutical Sciences and then the Department of Bioengineering and Therapeutic Sciences. He was a founder and the first president of the American Association of Pharmaceutical Scientists, president of the APhA Academy of Pharmaceutical Sciences and of the American Association of Colleges of Pharmacy, and was elected to the National Academy of Medicine. He has supervised more than 55 doctoral theses and 100 postdoctoral fellows.
+
+His most durable contribution to the mathematics used by simulation tools such as this one is the noncompartmental, statistical-moment treatment of drug disposition. With Renato L. Galeazzi he showed that the steady-state volume of distribution can be obtained model-independently from the zeroth and first moments of the concentration–time curve (Vss = dose × AUMC/AUC² after intravenous administration), together with mean residence time — parameters that require no assumption about the number of compartments. That paper became the most-cited article in the *Journal of Pharmaceutical Sciences*. Benet also argued for clearance as the primary, physiologically anchored pharmacokinetic parameter, shaped the science of bioavailability and bioequivalence (advising the FDA on its guidances), demonstrated that intestinal metabolism and transport, not the liver alone, gate oral drug entry, and with Chi-Yuan Wu proposed the Biopharmaceutics Drug Disposition Classification System (BDDCS), which extends the Biopharmaceutics Classification System to predict metabolizing-enzyme and transporter interplay. He remains a prominent and deliberately contrarian voice in the long-running debate over hepatic clearance models, arguing that organ clearance relationships follow from Kirchhoff's laws independently of any particular anatomic model such as the well-stirred or parallel-tube formulations — a position that continues to be actively contested.
+
+Benet's UCSF connections run directly into anesthesia pharmacology. His department was the academic home of Lewis Sheiner and Stuart Beal, whose NONMEM work created the population pharmacokinetic–pharmacodynamic methodology behind the effect-site (ke0) models and target-controlled infusion systems used in anesthesia. With Sheiner he co-authored the "Design and Optimization of Dosage Regimens: Pharmacokinetic Data" appendix in *Goodman & Gilman's The Pharmacological Basis of Therapeutics*, for many years a standard clinical source of pharmacokinetic parameters. With Carl Peck, William Barr and others he co-authored the 1992 consensus paper on integrating pharmacokinetics, pharmacodynamics and toxicokinetics into rational drug development, which helped make exposure–response modeling a regulatory expectation rather than an academic exercise. His own laboratory work is not anesthesia-specific, but the clearance, volume and residence-time concepts he formalized are the vocabulary in which anesthetic pharmacokinetic models are written.
+
+*Key references:* Benet LZ, Galeazzi RL. Noncompartmental determination of the steady-state volume of distribution. J Pharm Sci. 1979;68(8):1071–1074. • Wu CY, Benet LZ. Predicting drug disposition via application of BCS: transport/absorption/elimination interplay and development of a biopharmaceutics drug disposition classification system. Pharm Res. 2005;22(1):11–23.
 
 ---
 
@@ -596,7 +787,7 @@ Saidman's early work extended MAC beyond a single-agent measurement into a quant
 
 After the foundational UCSF period, Saidman moved to the University of California, San Diego (UCSD) and later to Stanford University, where he became Professor of Anesthesia (subsequently Emeritus). He was also a long-serving Editor-in-Chief of the journal Anesthesiology, shaping the discipline's leading peer-reviewed literature for many years. Lawrence Saidman passed away in 2026.
 
-*Key references:* Eger EI 2nd, Saidman LJ, Brandstater B. Minimum alveolar anesthetic concentration: a standard of anesthetic potency. Anesthesiology. 1965;26(6):756–763. • Saidman LJ, Eger EI 2nd. Effect of nitrous oxide and of narcotic premedication on the alveolar concentration of halothane required for anesthesia. Anesthesiology. 1964;25(3):302–306.
+*Key references:* Saidman LJ, Eger EI 2nd. Effect of nitrous oxide and of narcotic premedication on the alveolar concentration of halothane required for anesthesia. Anesthesiology. 1964;25(3):302–306. • Eger EI 2nd, Saidman LJ, Brandstater B. Minimum alveolar anesthetic concentration: a standard of anesthetic potency. Anesthesiology. 1965;26(6):756–763.
 
 ---
 
@@ -637,6 +828,18 @@ Steven Kern is a bioengineer and clinical pharmacologist who spent roughly fifte
 Kern is best known in this area for a volunteer study, published back-to-back with Bouillon's paper in the same 2004 issue of Anesthesiology, that used a response surface to characterize the propofol–remifentanil pharmacodynamic interaction across a complete range of clinically relevant concentrations. Using surrogate noxious stimuli (algometry, tetany), sedation, and laryngoscopy as endpoints, the analysis quantified pronounced synergy between the two drugs, reinforcing the rationale for combining a hypnotic and an opioid at reduced individual concentrations. He later moved into industry (pharmacology modeling, including at Novartis, Basel) and then to global health, serving in quantitative-sciences leadership at the Bill & Melinda Gates Foundation. `[verify: birth year; exact Utah and Novartis dates]`
 
 *Key reference:* Kern SE, Xie G, White JL, Egan TD. A response surface analysis of propofol–remifentanil pharmacodynamic interaction in volunteers. Anesthesiology. 2004;100(6):1373–1381.
+
+---
+
+**Theodore H. "Ted" Stanley** — professor of anesthesiology, University of Utah; high-dose opioid anesthesia and oral transmucosal fentanyl
+
+Stanley trained in Cleveland under Willem Kolff and followed him to the University of Utah, where he spent his entire career and contributed to the artificial-heart program that produced the first permanent implant in 1982. His central contribution to anesthesia was the systematic development of high-dose opioid anesthesia for cardiac surgery. With Lynn Webster he characterized the anesthetic requirements and cardiovascular effects of fentanyl–oxygen and fentanyl–diazepam–oxygen anesthesia in patients undergoing mitral valve replacement, quantifying the doses required for surgical anesthesia and showing that fentanyl alone preserved stroke volume and cardiac output while the addition of diazepam depressed them. That dose–requirement and drug-interaction work helped displace high-dose morphine as the standard technique for hemodynamically fragile patients. Collaborating with Paul Janssen of Janssen Pharmaceutica, Stanley was instrumental in bringing the fentanyl family of opioids — fentanyl, sufentanil, and alfentanil — into anesthetic practice, a history he later recounted in his retrospective "The fentanyl story."
+
+Observing that orally administered fentanyl produced effects far faster than gastric absorption could explain, Stanley and colleagues inferred direct uptake across the oral mucosa and developed oral transmucosal fentanyl citrate (OTFC), a fentanyl-containing lozenge on a handle, first as premedication for children and preoperative patients and then, through Anesta Corp. — the Salt Lake City company he co-founded with William Moeller — as the breakthrough-cancer-pain product Actiq. The pharmacokinetics of that route were characterized in a study with Streisand, Varvel, Donald Stanski, and Michael Ashburn, which measured the absorbed fraction and absolute bioavailability of OTFC against intravenous fentanyl and demonstrated that a substantial portion is taken up transmucosally, bypassing first-pass hepatic extraction. That characterization made non-intravenous fentanyl delivery pharmacokinetically predictable, and it is a direct antecedent of the oral and transmucosal absorption models used in simulators such as stanpumpR.
+
+For decades Stanley directed the Utah Postgraduate Course in Anesthesiology, editing its proceedings as a long-running book series with W. Clayton Petty. The meeting is now held annually as the Theodore H. Stanley Annual Update in Anesthesiology. Ted Stanley passed away in 2017.
+
+*Key references:* Stanley TH, Webster LR. Anesthetic requirements and cardiovascular effects of fentanyl-oxygen and fentanyl-diazepam-oxygen anesthesia in man. Anesth Analg. 1978;57(4):411–416. • Streisand JB, Varvel JR, Stanski DR, Le Maire L, Ashburn MA, Hague BI, et al. Absorption and bioavailability of oral transmucosal fentanyl citrate. Anesthesiology. 1991;75(2):223–229.
 
 ---
 
