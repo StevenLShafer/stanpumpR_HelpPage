@@ -550,13 +550,13 @@ Shafer is the author of the STANPUMP program, which he placed in the public doma
 
 *Author of stanpumpR.*
 
-*Key references:* Shafer SL, Varvel JR. Pharmacokinetics, pharmacodynamics, and rational opioid selection. Anesthesiology. 1991;74(1):53–63. • Shafer SL, Gregg KM. Algorithms to rapidly achieve and maintain stable drug concentrations at the site of drug effect with a computer-controlled infusion pump. J Pharmacokinet Biopharm. 1992;20(2):147–169.
-
 *Selected publications:*
 
 - Shafer SL, Siegel LC, Cooke JE, Scott JC. Testing computer-controlled infusion pumps by simulation. Anesthesiology. 1988;68(2):261–266.
 - Shafer SL, Varvel JR, Aziz N, Scott JC. Pharmacokinetics of fentanyl administered by computer-controlled infusion pump. Anesthesiology. 1990;73(6):1091–1102.
+- Shafer SL, Varvel JR. Pharmacokinetics, pharmacodynamics, and rational opioid selection. Anesthesiology. 1991;74(1):53–63.
 - Varvel JR, Donoho DL, Shafer SL. Measuring the predictive performance of computer-controlled infusion pumps. J Pharmacokinet Biopharm. 1992;20(1):63–94.
+- Shafer SL, Gregg KM. Algorithms to rapidly achieve and maintain stable drug concentrations at the site of drug effect with a computer-controlled infusion pump. J Pharmacokinet Biopharm. 1992;20(2):147–169.
 - Kataria BK, Ved SA, Nicodemus HF, Hoy GR, Lea D, Dubois MY, et al. The pharmacokinetics of propofol in children using three different data analysis approaches. Anesthesiology. 1994;80(1):104–122.
 - Gepts E, Shafer SL, Camu F, Stanski DR, Woestenborghs R, Van Peer A, et al. Linearity of pharmacokinetics and model estimation of sufentanil. Anesthesiology. 1995;83(6):1194–1204.
 - Minto CF, Schnider TW, Egan TD, Youngs E, Lemmens HJ, Gambus PL, et al. Influence of age and gender on the pharmacokinetics and pharmacodynamics of remifentanil. I. Model development. Anesthesiology. 1997;86(1):10–23.
