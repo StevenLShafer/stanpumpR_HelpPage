@@ -228,6 +228,26 @@ Bouillon also made foundational contributions to modeling opioid-induced ventila
 
 ---
 
+**Michael Bührer** — clinical pharmacologist; quantitative EEG pharmacodynamics of benzodiazepines, Stanford University `[verify: primary affiliation]`
+
+Michael Bührer worked in Donald Stanski's anesthesia clinical-pharmacology group at Stanford, together with Pierre Maitre, on the quantitative electroencephalographic pharmacodynamics of benzodiazepines. In a paired series of studies he first addressed the measurement problem — selecting an EEG parameter that reliably and monotonically tracks benzodiazepine (midazolam) drug effect on the central nervous system — and then applied that parameter to build parametric and nonparametric PK/PD models comparing midazolam and diazepam.
+
+Using arterial plasma concentrations linked to EEG effect through an effect-compartment (ke0) model, Bührer and colleagues quantified each drug's intrinsic steady-state potency and the half-time of blood–brain equilibration, finding midazolam roughly five-fold more potent than diazepam and with slower CNS equilibration (about 4.8 vs. 1.6 minutes). This careful separation of pharmacokinetics from pharmacodynamics via the effect site, using the EEG as the effect measure, is a foundational example of the effect-site/EEG PD framework that underpins TCI and stanpumpR's effect-site simulation.
+
+*Key reference:* Bührer M, Maitre PO, Crevoisier C, Stanski DR. Electroencephalographic effects of benzodiazepines. II. Pharmacodynamic modeling of the electroencephalographic effects of midazolam and diazepam. Clin Pharmacol Ther. 1990;48(5):555–567.
+
+---
+
+**William F. "Bill" Ebling** — pharmacokineticist and pharmaceutical scientist; physiologically based and simulation modeling of intravenous anesthetics, Stanford University
+
+Bill Ebling worked with Donald Stanski's group at Stanford on the pharmacokinetics and pharmacodynamics of intravenous anesthetics, including thiopental, fentanyl, and alfentanil. He was an early proponent of using computer simulation — rather than isolated parameter tables — to make integrated PK/PD behavior clinically interpretable, showing how the time course of plasma concentration, the estimated effect-site concentration, and the intensity of EEG-measured CNS effect combine to produce a drug's clinical profile. His comparative simulations of fentanyl and alfentanil demonstrated that differences in blood–brain (effect-site) equilibration rate, rather than plasma pharmacokinetics alone, explain the differing onset and offset of clinical effect between opioids.
+
+Ebling also pursued physiologically based pharmacokinetic modeling of these agents, connecting tissue-level distribution to the whole-body disposition used in dosing simulation. This simulation-and-effect-site perspective — computing predicted effect-site concentrations from closed-form models and displaying the resulting time course — is the same conceptual engine at the heart of TCI and of stanpumpR's plasma- and effect-site concentration displays.
+
+*Key reference:* Ebling WF, Lee EN, Stanski DR. Understanding pharmacokinetics and pharmacodynamics through computer simulation: I. The comparative clinical profiles of fentanyl and alfentanil. Anesthesiology. 1990;72(4):650–658.
+
+---
+
 **Pedro L. Gambús** — anesthesiologist; research fellow in the Stanford/Palo Alto group; PK/PD modeling, EEG/BIS measures of drug effect, and anesthetic drug interactions (later Hospital Clínic de Barcelona)
 
 Gambús specializes in the quantitative pharmacodynamics of anesthetic and analgesic drugs, using processed-EEG measures (including bispectral/EEG-derived endpoints) to characterize the time course of drug effect and to model the effect-site equilibration (ke0) that underlies effect-site targeting in TCI. His research addresses propofol and opioid pharmacodynamics and their synergistic interactions, an area central to how modern TCI systems combine hypnotic and opioid targets.
@@ -255,6 +275,26 @@ Chuanpu Hu earned his PhD at Stanford and worked with Steven L. Shafer's group i
 Hu subsequently built a long career in pharmacometrics in the pharmaceutical industry, including senior scientific and directorial roles at Johnson & Johnson/Janssen and Bristol Myers Squibb (and, earlier, a period as a mathematical statistician at the FDA). His industry work centers on population PK/PD analysis, nonlinear mixed-effects modeling, exposure–response methodology, and simulation — the statistical toolkit that population anesthetic PK/PD models such as those in stanpumpR rely upon.
 
 *Key reference:* Hu C, Lovejoy WS, Shafer SL. Comparison of some control strategies for three-compartment PK/PD models. J Pharmacokinet Biopharm. 1994;22(6):525–550.
+
+---
+
+**Pierre O. Maitre** — clinical pharmacologist; population pharmacokinetics of intravenous anesthetics, Stanford University `[verify: primary affiliation]`
+
+Pierre Maitre worked with Donald Stanski's anesthesia clinical-pharmacology group at Stanford, applying population pharmacokinetic methods (drawn in part from the mixed-effects modeling tradition of Lewis Sheiner and Samuel Vozeh) to anesthetic and sedative drugs. His most influential contribution characterized the population pharmacokinetics of alfentanil, pooling plasma-concentration data across multiple studies to define the average dose–concentration relationship and, critically, to quantify interindividual variability and the systematic effects of covariates such as age and body weight on clearance and distribution. This covariate-and-variability framing is precisely the structure that later model-based dosing and target-controlled infusion (TCI) systems require, and it is echoed in the covariate-driven parameterization used in stanpumpR.
+
+Maitre also collaborated with Michael Bührer and Stanski on the quantitative electroencephalographic (EEG) pharmacodynamics of the benzodiazepines midazolam and diazepam, linking his population-PK expertise to effect-site/EEG PD modeling of drug effect. Together these lines of work helped establish the joint PK/PD and effect-site paradigm that underlies modern anesthetic simulation and closed-loop/TCI dosing.
+
+*Key reference:* Maitre PO, Vozeh S, Heykants J, Thomson DA, Stanski DR. Population pharmacokinetics of alfentanil: the average dose-plasma concentration relationship and interindividual variability in patients. Anesthesiology. 1987;66(1):3–12.
+
+---
+
+**Jan Willem Mandema** — pharmacometrician; population PK/PD methodology, EEG pharmacodynamics, and drug-interaction modeling (later pharmacometrics consulting, Quantitative Solutions / Certara)
+
+Jan Willem Mandema is a pharmacometrician whose early work modeled the central-nervous-system effects of sedative and anesthetic drugs using the EEG as a continuous, graded measure of drug effect. In doctoral work in the group of Meindert Danhof at the University of Leiden, he built PK/PD models of the benzodiazepine midazolam and its active metabolite α-hydroxymidazolam, using the sigmoid-Emax/effect-compartment framework to separate the contributions of parent drug and metabolite to measured EEG and behavioral effect — an early, rigorous treatment of active-metabolite pharmacodynamics.
+
+At Stanford and in collaboration with Lewis Sheiner at UCSF, Mandema advanced the general methodology for building population PK/PD models, developing systematic, semiparametric approaches (empirical Bayes estimates regressed on covariates via generalized additive models) for detecting and incorporating covariate effects. This methodological program directly supports the covariate-based population models — age, weight, and other patient characteristics driving individualized PK/PD parameters — that TCI systems and stanpumpR rely on. He later extended PK/PD modeling to drug interactions and response-surface methods, and became a leader in pharmacometrics consulting (Quantitative Solutions, subsequently part of Certara).
+
+*Key references:* Mandema JW, Verotta D, Sheiner LB. Building population pharmacokinetic-pharmacodynamic models. I. Models for covariate effects. J Pharmacokinet Biopharm. 1992;20(5):511–528. • Mandema JW, Tuk B, van Steveninck AL, Breimer DD, Cohen AF, Danhof M. Pharmacokinetic-pharmacodynamic modeling of the central nervous system effects of midazolam and its main metabolite alpha-hydroxymidazolam in healthy volunteers. Clin Pharmacol Ther. 1992;51(6):715–728.
 
 ---
 
@@ -406,6 +446,32 @@ His later collaborations extended this line of work to Bayesian, patient-adaptiv
 
 ---
 
+## University of Auckland (New Zealand)
+
+**Brian J. Anderson** — pediatric anesthesiologist and clinical pharmacologist, University of Auckland; allometric size-and-maturation modeling for drug dosing in children
+
+Brian Anderson is a leading figure in pediatric clinical pharmacology, known for applying quantitative population PK/PD methods to drug dosing in children and neonates. His central contribution, developed in close collaboration with Nicholas Holford, is the theory-based (allometric) approach to describing how a child's size and maturity jointly govern drug clearance and volume. In this framework, clearance is scaled to body weight using a fixed ¾-power allometric exponent (and volume with an exponent of 1), referenced to a standard 70-kg adult, while a separate sigmoid (Emax) maturation function of postmenstrual age captures the ontogeny of clearance pathways in the fetus, neonate, and infant. Separating size from maturity in this mechanistic way lets a single model span the neonate-to-adult range without empirical per-age-band adjustments.
+
+Anderson has applied these principles across many agents relevant to anesthesia and analgesia, including paracetamol/acetaminophen, propofol, opioids, and dexmedetomidine, building population models that inform rational pediatric dosing. His work with Holford established postmenstrual age (rather than postnatal age) as the appropriate maturational descriptor and demonstrated the practical value of standardized allometric scaling for extrapolating adult pharmacokinetics to the very young.
+
+These size-and-maturation methods are foundational to modern general-purpose and target-controlled infusion (TCI) models: the Eleveld propofol model, for example, uses allometric scaling and maturation functions to cover neonates through elderly adults in one model, and the Chilean group led by Luis Ignacio Cortínez and Pablo Sepúlveda (frequent Anderson collaborators) has extended allometric propofol and dexmedetomidine modeling, including in obesity.
+
+*Key reference:* Anderson BJ, Holford NHG. Mechanism-based concepts of size and maturity in pharmacokinetics. Annu Rev Pharmacol Toxicol. 2008;48:303–332.
+
+---
+
+**Nicholas H. G. Holford** — clinical pharmacologist and pharmacometrician, University of Auckland; PK/PD principles and allometric size standardization
+
+Nicholas Holford is a foundational figure in pharmacometrics whose work shaped the modern quantitative understanding of the dose–concentration–effect relationship. His early collaboration with Lewis B. Sheiner at the University of California, San Francisco produced one of the most influential syntheses in the field, formalizing how pharmacokinetic and pharmacodynamic models are linked and clinically applied — including the effect-compartment concept that connects plasma concentration to the site of drug effect, a cornerstone of anesthetic PK/PD and TCI design. This dose–concentration–effect framework, together with NONMEM-era nonlinear mixed-effects (population) methods that Holford helped develop and popularize, underlies much of contemporary model-based drug development and individualized dosing.
+
+Holford's proposal of a standardized allometric size standard for pharmacokinetics — scaling clearance and volume to a 70-kg reference using fixed theory-based exponents — gave the field a consistent, mechanistically motivated way to handle body size across the age and weight spectrum. In partnership with Brian Anderson, he extended this into the combined size-plus-maturation paradigm now standard in pediatric pharmacology. His broader contributions also include disease-progression modeling and time-to-event (survival) methods in pharmacometrics.
+
+These principles feed directly into modern anesthetic dosing tools: general-purpose TCI models such as Eleveld's propofol model rely on Holford-style allometric scaling and maturation, and the Chilean group (Cortínez, Sepúlveda) has built on the same foundations for propofol and dexmedetomidine. Holford's size standard and PK/PD framework remain reference points for how covariates are handled in population models throughout anesthesia.
+
+*Key references:* Holford NHG, Sheiner LB. Understanding the dose-effect relationship: clinical application of pharmacokinetic-pharmacodynamic models. Clin Pharmacokinet. 1981;6(6):429–453. • Holford NHG. A size standard for pharmacokinetics. Clin Pharmacokinet. 1996;30(5):329–332.
+
+---
+
 ## University of California, San Francisco (UCSF)
 
 **Stuart L. Beal** — biostatistician; co-developer of NONMEM and nonlinear mixed-effects (population) pharmacokinetics
@@ -435,6 +501,18 @@ Dennis Fisher is a clinical pharmacologist recognized for methodological rigor i
 Fisher used PK/PD simulation to explain clinically important but counterintuitive phenomena — for example, why recovery time lengthens disproportionately after larger or repeated relaxant doses — demonstrating how the interaction of pharmacokinetics with a sigmoid concentration-effect relationship shapes the observed time course of drug effect. Beyond his own studies, he served as a reviewer at the FDA's Center for Drug Evaluation and Research, an editor at Anesthesiology, and a widely cited educator on statistical and pharmacometric methods in anesthesia research.
 
 *Key references:* Fisher DM, Rosen JI. A pharmacokinetic explanation for increasing recovery time following larger or repeated doses of nondepolarizing muscle relaxants. Anesthesiology. 1986;65(3):286–291. • Fisher DM, Canfell PC, Fahey MR, et al. Elimination of atracurium in humans: contribution of Hofmann elimination and ester hydrolysis versus organ-based elimination. Anesthesiology. 1986;65(1):6–12.
+
+---
+
+**Lawrence J. Saidman** — anesthesiologist; co-originator of the Minimum Alveolar Concentration (MAC) concept, University of California, San Francisco (UCSF)
+
+Lawrence J. Saidman was a foundational figure in the quantitative pharmacology of inhaled anesthetics. As a resident and young investigator at UCSF in the early-to-mid 1960s, he worked with Edmund I. "Ted" Eger II and Bernard Brandstater to define and validate Minimum Alveolar Concentration (MAC) — the alveolar concentration of an inhaled anesthetic at which half of subjects fail to move in response to a standardized noxious stimulus. By anchoring anesthetic potency to a reproducible, physiologically grounded endpoint, MAC transformed inhaled-anesthetic dosing from an empirical art into a measurable standard, and it remains the universal yardstick of volatile-anesthetic potency to this day.
+
+Saidman's early work extended MAC beyond a single-agent measurement into a quantitative framework. With Eger he characterized how nitrous oxide and narcotic premedication reduce the alveolar halothane concentration required for anesthesia, establishing the additive, quantifiable nature of anesthetic and adjuvant effects that underlies modern balanced anesthesia. This body of work helped launch a durable UCSF-centered tradition of rigorous inhaled-anesthetic pharmacokinetics and pharmacodynamics.
+
+After the foundational UCSF period, Saidman moved to the University of California, San Diego (UCSD) and later to Stanford University, where he became Professor of Anesthesia (subsequently Emeritus). He was also a long-serving Editor-in-Chief of the journal Anesthesiology, shaping the discipline's leading peer-reviewed literature for many years. Lawrence Saidman passed away in 2026.
+
+*Key references:* Eger EI 2nd, Saidman LJ, Brandstater B. Minimum alveolar anesthetic concentration: a standard of anesthetic potency. Anesthesiology. 1965;26(6):756–763. • Saidman LJ, Eger EI 2nd. Effect of nitrous oxide and of narcotic premedication on the alveolar concentration of halothane required for anesthesia. Anesthesiology. 1964;25(3):302–306.
 
 ---
 
