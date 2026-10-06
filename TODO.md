@@ -22,6 +22,23 @@ impact.
   (birth years and a few citation specifics) still need confirmation before the
   next deploy — `grep -n "verify" inst/extdata/pk-author-summaries.md`.
 
+- [ ] **Gas engine contributors added 2026-10-05** (commit `fddcdcc` on
+  `acknowledgements-author-bios`): **James H. Philip** (Harvard section)
+  rewritten and expanded — Gas Man as the landmark inhaled-anesthetic
+  simulation, the research done with it, and stanpumpR's inhaled engine placed
+  explicitly on that foundation; **Richard H. Epstein** added under a new
+  `## University of Miami` section (AIMS/OR-management work, the fresh-gas-flow
+  and age-adjusted-MAC studies, and his validation of the engine against Gas
+  Man). Three `[verify]` tags mark facts Shafer should confirm personally:
+  Epstein's title and his years at Jefferson, Philip's Harvard appointment.
+  Citations were checked against PubMed. The same commit repaired three leftover
+  find-and-replace artifacts (Jacobs, Rosow, Goodale entries).
+  **For the docx / indexed-HTML help:** generate the Acknowledgements chapter
+  from this file (e.g. `pandoc inst/extdata/pk-author-summaries.md`) rather than
+  copying prose — the `##` institution headings become the index entries, and
+  this file stays the single source of truth per README. Strip the `[verify]`
+  tags only once each fact is confirmed.
+
 ## Content: wrong headers / copy-paste errors in "How to …"
 
 Several **Help → How to …** sub-tabs have bold headers and/or body text
